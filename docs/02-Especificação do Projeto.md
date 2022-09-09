@@ -6,39 +6,35 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
-## Personas
+## Personas   
+Persona 1: Aline Alves, 32 anos, Atua na administração há 15 anos e seu hobbie preferido é administrar empresas. Atualmente sofre com problemas no gerenciamento de OSs, onde não há informações suficientes e nem locais adequados (Uso de email para realização), onde resulta no atraso de pedidos e falta de organização das OS. Aline busca formas de solucionar esse problema por meio de aplicações web.
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<br>
+<br>
+Persona 2: Lucas Alexandre, 39 anos, Colaborador no setor de engenharia da empresa, Lucas está motivado em trabalhar no seu crescimento profissional, atuando  nos setores de facility da  empresa. 
+Lucas busca uma forma mais moderna de enviar solicitações de OS para mais detalhamento e agilidade nos pedidos.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `ALINE ALVES`| QUERO/PRECISO ... `FUNCIONALIDADE`                                   |PARA ... `MOTIVO/VALOR`                                                       |
+|------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------|
+|Administrador do sistema| Visualizar de maneira mais clara a quantidade de OSs solicitada      | Poder dimensionar os recursos de trabalho                                    |
+|Administrador do sistema| Saber o deadline dado pelo solicitante                               | Planejar com antecedencia o cronograma                                       |
+|Administrador do sistema| Saber de forma otimizada o escopo a ser trabalhado                   | Pode alocar os recursos com mais facilidade a depender do tipo da atividade  |  
+|Administrador do sistema| Saber as datas de criação das OSs                                    | Para poder dar prioridade às mais antigas. Quando possuírem escopos similares|                                       
+|Administrador do sistema| Saber a quantidade de solicitações por setor/disciplina e solicitante| Ter a estatística de maiores solicitantes e setores                          |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+
+|EU COMO... `Lucas alexandre`| QUERO/PRECISO ... `FUNCIONALIDADE`              |PARA ... `MOTIVO/VALOR`                                        |
+|------------------------|-----------------------------------------------------|---------------------------------------------------------------|
+|Usuário do sistema      | Agilidade no envio das solicitações                 | O atual processo é inconsistente e não confiável              |
+|Usuário do sistema      | Especificar data de prazo para o facility           | Para ter o atendimento na data correta: nem antes nem depois  |
+|Usuário do sistema      | Ter um local único [hub] onde os pedidos são feito  |O processo atual, feitos via e-mail, não são padronizados      |  
 
 ## Requisitos
 
@@ -46,10 +42,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito                                                                                                                        |Prioridade|
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------|
+|RF-001| O site deve apresentar uma tela inicial para cada tipo de login o usuário deseja realizar.                                                    |Alta      |
+|RF-002| Após o login, o site deve apresentar uma tela relacionada ao tipo de login que o usuário escolheu inicialmente.                               |Alta      |
+|RF-003| Na tela de entrada de dados da OS devem haver campos para o usuário informar o escopo de sua requisição.                                      |Alta      |
+|RF-004| Na tela de gerenciamento de OS, o site deverá exibir uma barra de pesquisa onde ao pesquisar as datas ou os tipos das OS elas serão exibidas. |Alta      |
+|RF-005| O site deve exibir uma notificação informando que a solicitação foi salva pelo sistema.                                                       |Média     |
+|RF-006| Na tela de gerenciamento de OS,o site deve exibir um procedimento para exclusão de OS                                                         |Alta      |
+ 
 
 ### Requisitos não Funcionais
 
