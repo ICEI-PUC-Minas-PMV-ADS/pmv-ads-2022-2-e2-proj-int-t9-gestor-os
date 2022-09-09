@@ -32,9 +32,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `Lucas alexandre`| QUERO/PRECISO ... `FUNCIONALIDADE`              |PARA ... `MOTIVO/VALOR`                                        |
 |------------------------|-----------------------------------------------------|---------------------------------------------------------------|
-|Usuário do sistema      | Agilidade no envio das solicitações                 | O atual processo é inconsistente e não confiável              |
-|Usuário do sistema      | Especificar data de prazo para o facility           | Para ter o atendimento na data correta: nem antes nem depois  |
-|Usuário do sistema      | Ter um local único [hub] onde os pedidos são feito  |O processo atual, feitos via e-mail, não são padronizados      |  
+|Cliente    | Agilidade no envio das solicitações                 | O atual processo é inconsistente e não confiável              |
+|Cliente    | Especificar data de prazo para o facility           | Para ter o atendimento na data correta: nem antes nem depois  |
+|Cliente    | Ter um local único [hub] onde os pedidos são feito  |O processo atual, feitos via e-mail, não são padronizados      |  
 
 ## Requisitos
 
@@ -81,4 +81,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-<img src="pmv-ads-2022-2-e2-proj-int-t9-gestor-os/docs/img/DIAGRAMAADS.png" alt"Diagrama">
+<img src="/docs/img/DIAGRAMAADS.png">
