@@ -7,7 +7,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas   
-Persona 1: Aline Alves, 32 anos, Atua na administração há 15 anos e seu hobbie preferido é administrar empresas. Atualmente sofre com problemas no gerenciamento de OSs, onde não há informações suficientes e nem locais adequados (Uso de email para realização), onde resulta no atraso de pedidos e falta de organização das OS. Aline busca formas de solucionar esse problema por meio de aplicações web.
+<img src ="/docs/img/DiagramaPersonas.png">
 
 <br>
 <br>
