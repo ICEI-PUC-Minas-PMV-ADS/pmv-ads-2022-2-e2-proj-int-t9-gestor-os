@@ -1,23 +1,28 @@
-# TÍTULO DO PROJETO
+FacilityWeb
 
-`CURSO`
+`CURSO` Analise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA` Projeto de uma aplicação interativa Turma 09  Grupo 03
 
-`SEMESTRE`
+`SEMESTRE` 02
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido:
+
+ O projeto consiste em uma aplicação web interativa onde possa solicitar e gerenciar ordens de serviços de uma empresa.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Nome completo do aluno 1:  Bemvilac dos Santos Brito
+* Nome completo do aluno 2: Eduardo Ramos da Silva
+* Nome completo do aluno 3: Guilherme de Oliveira Costa
+* Nome completo do aluno 4: Gustavo henrique Pereira da silva
+* Nome completo do aluno 5: Lucas Alexandre da Silva Santos
+* Nome completo do aluno 6: Gabriel Silveira
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nome completo do professor 1 Viviane Cristina Dias
 
 ## Instruções de utilização
 
