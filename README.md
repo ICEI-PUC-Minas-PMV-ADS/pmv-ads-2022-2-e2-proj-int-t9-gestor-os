@@ -17,7 +17,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Nome completo do aluno 3: Guilherme de Oliveira Costa
 * Nome completo do aluno 4: Gustavo henrique Pereira da silva
 * Nome completo do aluno 5: Lucas Alexandre da Silva Santos
-* Nome completo do aluno 6: Gabriel Silveira
+* Nome completo do aluno 6: Gabriel Vinícius Silveira e Silva Ildefonso
 
 
 ## Orientador
