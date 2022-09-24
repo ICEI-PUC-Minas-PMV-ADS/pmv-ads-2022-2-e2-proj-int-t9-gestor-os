@@ -42,8 +42,11 @@ A equipe está organizada da seguinte maneira:
 -	<strong>Equipe de Desenvolvimento:</strong> Gabriel Vinícius; Gustavo Henrique;
 - <strong>Equipe de Design:</strong> Lucas Alexandre; Guilherme Costa
 ### Processo
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+ 
+ <p>Tarefas são regidas pelo Scrum Master (Eduardo) e cadastradas no backlog do projeto dentro do Github, dividindo-as para cada respectivo membro da equipe responsável..<br>
+ As tarefas são colocadas dentro de uma sprint com duração até o final da etapa do projeto, cada tarefa tem status como: Andamento, a fazer e feito.  As tarefas também
+ contém marcações de tipo e também qual a branch que vai ser realizada. Todos os diass a equipe faz uma pequena reunião para fazer as seguintes perguntas: "O que você fez Ontem e Hoje para ajudar a equipe na realização dos objetivos?" e alteramos o backlog conforme as informações dita nessa reunião.
+ 
  
 
 ### Ferramentas
