@@ -21,10 +21,10 @@ O projeto segue a seguinte convenção para o nome de branches:
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: Foi adicionado o banco de dados ao projeto.
-- `bug`: Página de loggin não está loggando.
-- `enhancement`: Edição Ordens de Serviços.
-- `feature`: Funcionalidade página de cadastro.
+- `documentation`: Documentação do projeto.
+- `bug`: Ocorreu um bug.
+- `enhancement`: Foi aprimorado
+- `feature`: Adicionar nova funcionalidade.
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
@@ -46,6 +46,9 @@ A equipe está organizada da seguinte maneira:
  <p>Tarefas são regidas pelo Scrum Master (Eduardo) e cadastradas no backlog do projeto dentro do Github, dividindo-as para cada respectivo membro da equipe responsável..<br>
  As tarefas são colocadas dentro de uma sprint com duração até o final da etapa do projeto, cada tarefa tem status como: Andamento, a fazer e feito.  As tarefas também
  contém marcações de tipo e também qual a branch que vai ser realizada. Todos os diass a equipe faz uma pequena reunião para fazer as seguintes perguntas: "O que você fez Ontem e Hoje para ajudar a equipe na realização dos objetivos?" e alteramos o backlog conforme as informações dita nessa reunião.
+  <br>
+  <strong>Backlog:</strong>
+  <img src ="img/Backlog.png">
  
  
 
