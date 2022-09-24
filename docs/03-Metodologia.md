@@ -45,20 +45,6 @@ A equipe está organizada da seguinte maneira:
 
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
  
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
-
--   <strong>A fazer:</strong> esta lista contém as tarefas que devem ser executadas futuramente no projeto.
-- 	<strong>Em andamento:</strong> Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos desenvolvendo
--	<strong>Concluído:</strong> esta lista do trello contém todas as etapas concluídas da aplicação e que já foram testadas pela equipe.
-
-O quadro kanban do grupo no Trello está disponível através da URL  ** e é apresentado, no estado atual, na figura abaixo. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
-
-<img src='img/trello-2.png'/><br>
-A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
--	Feito
--	Em execução
--	Finalizado
--	Atrasado
 
 ### Ferramentas
 
@@ -83,4 +69,3 @@ Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justific
 > - [Git] - Organização de commits,versionamento e etc.. do projeto ao Github. (Recomendação da faculdade)
 > - [Microsoft SQL Server] - Conexão com o banco de dados. (Facil manuseio)
 > - [NClass] - Ferramenta para criação de Diagrama de Classes UML (Equipe já tem experiencia com esse programa)
-> - [Trello] - Para organização de sprints e backlog de desenvolvimento. (Praticidade do manuseio)
