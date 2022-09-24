@@ -13,10 +13,10 @@ foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software : Versão V1
-- `unstable`: versão já testada do software, porém instável : Versão V2
-- `testing`: versão em testes do software : Versão V4
-- `dev`: versão de desenvolvimento do software : Versão V1
+- `main`: versão estável já testada do software
+- `unstable`: versão já testada do software, porém instável
+- `testing`: versão em testes do software 
+- `dev`: versão de desenvolvimento do software 
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
@@ -49,7 +49,7 @@ A equipe está organizada da seguinte maneira:
   <br>
   <strong>Backlog:</strong>
   <img src ="img/Backlog.png">
- 
+Link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/129/views/1
  
 
 ### Ferramentas
