@@ -51,8 +51,8 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - 	<strong>Em andamento:</strong> Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos desenvolvendo
 -	<strong>Concluído:</strong> esta lista do trello contém todas as etapas concluídas da aplicação e que já foram testadas pela equipe.
 
-O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/CGUQikZj/aplicacao-web-grupo-5 e é apresentado, no estado atual, na figura abaixo. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
-<img src='img/trello-1.png'/>
+O quadro kanban do grupo no Trello está disponível através da URL  ** e é apresentado, no estado atual, na figura abaixo. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+
 <img src='img/trello-2.png'/><br>
 A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
 -	Feito
