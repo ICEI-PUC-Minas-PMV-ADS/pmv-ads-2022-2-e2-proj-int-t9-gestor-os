@@ -77,5 +77,11 @@ necessidades da nossa solução.
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+> - [MockFlow] - Criação de diagramas.
+> - [Github](https://github.com/) - Repositório do projeto
+> - [VisualStudioCode 2019] - Edição de codigo
+> - [Git] - Organização de commits,versionamento e etc.. do projeto ao Github.
+> - [Microsoft SQL Server] - Conexão com o banco de dados.
+> - [ASP.Net Mvc] - Ajuda no desenvolvimento da aplicação.
+> - [NClass] - Ferramenta para criação de Diagrama de Classes UML
+> - [Trello] - Para organização de sprints e backlog de desenvolvimento.
