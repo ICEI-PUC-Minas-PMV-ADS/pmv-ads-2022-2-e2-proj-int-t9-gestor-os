@@ -13,39 +13,34 @@ foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `main`: versão estável já testada do software : Versão V1
+- `unstable`: versão já testada do software, porém instável : Versão V2
+- `testing`: versão em testes do software : Versão V4
+- `dev`: versão de desenvolvimento do software : Versão V1
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
 - `documentation`: Foi adicionado o banco de dados ao projeto.
 - `bug`: Página de loggin não está loggando.
-- `enhancement`: Edição Ordens de Serviços
+- `enhancement`: Edição Ordens de Serviços.
 - `feature`: Funcionalidade página de cadastro.
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
+<li>Foi feito duas ramificações (branchs), uma com o nome "Master" que contém o projeto na primeira versão, e um branch de testes que é derivado de Master, o "Testes".
+<li>Os commits são feitos na ramificação "Testes" sem alterar o projeto original que se encontra em "Master", Para cada commit é criado uma nova versão de "Testes".
+<li>Depois de feito todas as realizações de testes, O membro da equipe que está na ramificação Master poderá fazer a fusão dos dois ramos gerando uma unica versão estável do software (git merge).
+<li> Gerenciamos em conjunto as issues, fazemos uma reunião e dividimos  para qual membro da equipe que irá se responsabilizar, e depois, o membro fará um commit na branch
+ "Testes".
+  
 ## Gerenciamento de Projeto
-
 ### Divisão de Papéis
-
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
+A equipe está organizada da seguinte maneira:
+-	<strong>Scrum Master:</strong> Eduardo Ramos
+-	<strong>Product Owner:</strong> Bemvilac dos Santos.
+-	<strong>Equipe de Desenvolvimento:</strong> Gabriel Vinícius; Gustavo Henrique;
+- <strong>Equipe de Design:</strong> Lucas Alexandre; Guilherme Costa
 ### Processo
 
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
