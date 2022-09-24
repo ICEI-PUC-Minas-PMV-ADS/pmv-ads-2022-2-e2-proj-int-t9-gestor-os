@@ -82,6 +82,5 @@ Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justific
 > - [VisualStudioCode 2019] - Edição de codigo (O mais completo na visão dos desenvolvedores da equipe)
 > - [Git] - Organização de commits,versionamento e etc.. do projeto ao Github. (Recomendação da faculdade)
 > - [Microsoft SQL Server] - Conexão com o banco de dados. (Facil manuseio)
-> - [ASP.Net Mvc] - Ajuda no desenvolvimento da aplicação (Escolha pela equipe pela praticidade de desenvolvimento)
-> - [NClass] - Ferramenta para criação de Diagrama de Classes UML (Equipe já tem contato com esse programa, e por isso a escolha)
+> - [NClass] - Ferramenta para criação de Diagrama de Classes UML (Equipe já tem experiencia com esse programa)
 > - [Trello] - Para organização de sprints e backlog de desenvolvimento. (Praticidade do manuseio)
