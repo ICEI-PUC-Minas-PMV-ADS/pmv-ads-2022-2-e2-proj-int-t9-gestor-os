@@ -26,7 +26,7 @@ etiquetas:
 - `enhancement`: Foi aprimorado
 - `feature`: Adicionar nova funcionalidade.
 
-<h1> Neste tópico é apresentado como foi feito o uso das tags (branch, merge, Master, commit, issues e etc..)</h1>
+<h2> O proximo tópico apresenta como foi feito o uso das tags: branch, merge, Master, commit e issues no projeto :
 
 <li>Foi feito duas ramificações (branchs), uma com o nome "Master" que contém o projeto na primeira versão, e um branch de testes que é derivado de Master, o "Testes".
 <li>Os commits são feitos na ramificação "Testes" sem alterar o projeto original que se encontra em "Master", Para cada commit é criado uma nova versão de "Testes".
