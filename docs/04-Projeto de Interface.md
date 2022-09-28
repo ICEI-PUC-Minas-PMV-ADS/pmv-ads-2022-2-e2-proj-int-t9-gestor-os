@@ -22,10 +22,28 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Nesta seção apresentamos o wireframe do projeto, como protótipo das telas da aplicação, bem como relacionamento entre elas. Em um primeiro momento, veremos o projeto em sua totalidade, para, em seguida, nos aprofundar em cada função do sistema de gerenciamento de ordens de serviço.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
+
+<img src="img/WireframeCompleto.png">
+
+Como podemos ver, na página inicial já se encontram disponíveis as três funcionalidades para o usuário: a opção de ir para o ambiente do cliente do serviço do setor de facilities da empresa, a opção de seguir como administrador (o responsável por cumprir as ordens de serviço emanadas pelo cliente), bem como a oportunidade de criar seu cadastro no sistema, caso seja um novo usuário. A serguir, debruçaremos sobre cada funcionalidade em separado.
+
+Começando pelo ambiente do cliente, após selecionar a opção "cliente" na página inicial, o usuário será levado a um ambiente de login, no qual estrará com seus dados de acesso. Após isso, será disponibilidade uma tela para que sejam fornecidas as informações acerca do serviço a ser realizado: 
+> <ul>
+> <il>- Natureza do serviço a ser realizado;</il><br>
+> <il>- Opção para fornecer detalhes sobre a solicitação;</il><br>
+> <il>- Opção para selecionar o melhor dia para o serviço ser realizado;</il><br>
+> <il>- Campo para definir a data limite para o serviço ser realizado, caso a data ideal não possa ser atendida.</il><br>
+> </ul>
+Por fim, ao salvar a ordem de serviço, o usuário será direcionado para uma nova tela de confirmação de solicitação de serviço, contendo o protocolo da ordem de serviço gerada. Essa funcionalidade, contudo, poderá ser substituída por um pop-up.
+
+<img src="img/WireframeGerarOS.png" tooltip="Wireframe completo da aplicação">
+
+
+
+
+
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
