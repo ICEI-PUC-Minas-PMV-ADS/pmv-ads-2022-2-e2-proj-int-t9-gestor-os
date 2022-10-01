@@ -12,14 +12,17 @@ Por exemplo:
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - O site deve apresentar uma tela inicial de login para cada tipo de login o usuário deseja realizar. |
 | Objetivo do Teste 	| Verificar se a aplicação web exibe todos os elementos requisitados. |
-| Passos 	| - 1) Acessar o Navegador 
-2) Informar o endereço da aplicação web 
-3) Visualizar a página principal 
-4) Selecionar a opção de usuário 
-5) Visualizar a tela de login 
-|
+   Passos | -                     -                 -     | 
+|    1   	|    Acessar o Navegador                        |
+|    2    |    Informar o endereço da aplicação web       |
+|    3    |    Visualizar a página principal              |
+|    4    |    Selecionar a opção de usuário              |
+|    5    |    Visualizar a tela de login                 |
+
 |Critério de Êxito | - Deve ser exibido uma tela de login para a entrada de usuários. |
-|  	|  	|
+
+
+
 | **Caso de Teste** 	| CT-02 – Visualizar página de cadastro de ordens de serviço.	|
 |Requisito Associado | RF-03 - Na tela de entrada de dados da OS devem haver campos para o usuário informar o escopo de sua requisição.    |
 | Objetivo do Teste 	| Verificar se a aplicação web exibe uma página com campos de preenchimento para o usuário cadastrar os dados das OSs. |
