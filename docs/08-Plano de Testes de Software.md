@@ -90,12 +90,53 @@ Casos de testes:
 |    10   |  Confirmar se é essa solicitação e clicar em “Delete” |
 |Critério de Êxito | Deve ser exibido na página especifica do gerenciamento de OS, a opção de deletar, escolher a OS e clicar em “Delete”.|
 
+# Registro de Testes de Software
+
+Os resultados obtidos nos testes de software realizados são descritos abaixo
+
+Resultado CT-01- Visualizar tela de login:
+
+<img src="img/ct1.png">
+
+Resultado CT-02- Visualizar página de cadastro de OS:
+
+<img src="img/ct2.png">
+
+Resultado CT-03- Visualizar página de Gerenciamento de OS:
+
+<img src="img/ct3.jpg">
+
+Resultado CT-04- Visualizar página de Alterar solicitação:
+
+<img src="img/ct4.jpg">
+
+Resultado CT-05- Visualizar página de Deletar solicitação:
+
+<img src="img/ct5.jpg">
 
 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+# Plano de testes de usabilidade
+
+O objetivo desse teste é receber o feedback do usuário, certificando se o site entrega o esperado e funciona corretamente. Haverá dois participantes eles foram escolhidos por fazerem parte do Facility e necessitarem dessa solicitação. O procedimento no qual conduziremos o teste será remotamente. O método escolhido será por avaliação, o usuário nos informará sua experiência com a API que ressaltará o resultado positivo ou negativo. Criamos quatro tarefas a serem cumpridas pelos candidatos, a ordem das tarefas será o seguinte:     
+
+1- Fazer login. <br>
+2- Cadastrar OS. <br>
+3- Alterar solicitação.<br>
+4- Deletar solicitação. <br>
+Iremos acompanhar, coletar dados e registrar a métrica. 
+
+
+# Registros de Testes de Usabilidade
+Os resultados obtidos nos testes de usabilidade realizados são descritos nas Tabelas a seguir:
+
+CT-01 Efetuar o login
+<img src="img/rt1.png">
+
+CT-02 Cadastrar solicitaçãod e OS
+<img src="img/rt2.png">
+
+CT-03 Ver detalhes da solicitação
+<img src="img/rt3.png">
+
+CT-04 Deletar solicitação
+<img src="img/rt4.png">
