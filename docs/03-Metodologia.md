@@ -41,7 +41,7 @@ A equipe está organizada da seguinte maneira:
 -	<strong>Product Owner:</strong> Bemvilac dos Santos.
 -	<strong>Equipe de Desenvolvimento:</strong> Gabriel Vinícius; Gustavo Henrique;
 - <strong>Equipe de Design:</strong> Lucas Alexandre; Guilherme Costa
-### Processo : Backlog e Plano de Sprints
+## Processo : Backlog e Plano de Sprints
  
  <p>Tarefas são regidas pelo Scrum Master (Eduardo) e cadastradas no backlog do projeto dentro do Github, dividindo-as para cada respectivo membro da equipe responsável..<br>
  As tarefas são colocadas dentro de uma <strong>sprint<strong> com duração até o final de cada etapa do projeto, cada tarefa tem status como: Andamento, a fazer e feito.  As tarefas também
