@@ -11,7 +11,7 @@
  
 >                                                                          Figura.01
 > 
-> Como funcionalidades, destaca-se o controle de navegação (barra superior, na centro-direita) que leva o usário da pagina atual, a principal, até a tela de entrada propriamente dita, a de login, que pode ser vista na [Figura.02], abaixo:
+> Como funcionalidades, destaca-se o controle de navegação (barra superior, na centro-direita) que leva o usuário da página atual, a principal, até a tela de entrada propriamente dita, a de login, que pode ser vista na [Figura.02], abaixo:
 
 
 
