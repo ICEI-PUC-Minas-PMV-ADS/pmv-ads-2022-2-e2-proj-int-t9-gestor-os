@@ -44,12 +44,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                                                                                                        |Prioridade|
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------|
-|RF-001| O site deve apresentar uma tela inicial para cada tipo de login o usuário deseja realizar.                                                    |Alta      |
-|RF-002| Após o login, o site deve apresentar uma tela relacionada ao tipo de login que o usuário escolheu inicialmente.                               |Alta      |
-|RF-003| Na tela de entrada de dados da OS devem haver campos para o usuário informar o escopo de sua requisição.                                      |Alta      |
-|RF-004| Na tela de gerenciamento de OS, o site deverá exibir uma barra de pesquisa onde ao pesquisar as datas ou os tipos das OS elas serão exibidas. |Alta      |
-|RF-005| O site deve exibir uma notificação informando que a solicitação foi salva pelo sistema.                                                       |Média     |
-|RF-006| Na tela de gerenciamento de OS,o site deve exibir um procedimento para exclusão de OS                                                         |Alta      |
+|RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha".                                        |Alta      |
+|RF-002| A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS onde haverão campos para informar o escopo de requisição tais como: Descrição, tipo, data , horário e realização da OS.                               |Alta      |
+|RF-003| A aplicação deverá exibir uma tela para o Admnistrador onde ele poderá alterar, editar , excluir e criar ordens de serviços| Média     |
+|RF-004| O Administrador pode alterar, editar ,excluir e criar ordens de serviços.                                            |Alta      |
+|RF-004| O Cliente pode solicitar ordens de serviços.                                            |Alta      |
  
 
 ### Requisitos não Funcionais
