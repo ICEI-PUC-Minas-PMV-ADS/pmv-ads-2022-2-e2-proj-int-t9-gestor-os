@@ -1,0 +1,45 @@
+﻿@model GestorOS.Models.OrdensDeServicos
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 style="font-size:larger; font-weight:bolder; color:blanchedalmond ; text-shadow: 1px 1px 2px black;">Deletar</h1>
+
+<h3 style="text-align:center; font-size:large; font-weight:bolder; color:red ; text-shadow: 1px 1px 2px white;">Tem certeza que deseja fazer isso?</h3>
+<div>
+    <h4 style="font-size:medium; font-weight:bolder; color:white ; text-shadow: 1px 1px 2px black;">Ordem de serviço:</h4>
+    <hr />
+    <dl style="font-size:medium; font-weight:bolder; color:white ; text-shadow: 1px 1px 2px black;"  class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Feito)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Feito)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar para a lista de OS</a>
+    </form>
+</div>

@@ -1,0 +1,49 @@
+﻿@model GestorOS.Models.OrdensDeServicos
+
+@{
+    ViewData["Title"] = "Editar OS";
+}
+
+<h1 style="font-size:larger; font-weight:bolder; color:blanchedalmond ; text-shadow: 1px 1px 2px black;">Editar</h1>
+
+<h4 style="font-size:medium; font-weight:bolder; color:azure ; text-shadow: 1px 1px 2px black;">Ordem de Serviço:</h4>
+<hr />
+<div class="row">
+    <div style="font-size:medium; font-weight:bolder; color:white ; text-shadow: 1px 1px 2px black;" class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tipo" class="control-label"></label>
+                <input asp-for="Tipo" class="form-control" />
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Data" class="control-label"></label>
+                <input asp-for="Data" class="form-control" />
+                <span asp-validation-for="Data" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Feito" /> @Html.DisplayNameFor(model => model.Feito)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar para a lista de OS</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
