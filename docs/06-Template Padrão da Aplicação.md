@@ -79,7 +79,7 @@ São funcionalidades contidas nesta tela, vinculada às tratativas: a conclusão
 
 
 
->                                                                          Figura.05
+>                                                                          Figura.06
 
 > Tela exclusiva de ação do admin. Com a funcionalidade de permitir ao admin visualizar todas as OS's solicitadas pelos clientes a fim de tratá-las de acordo com os recursos e cronograma disponível.
 
@@ -92,6 +92,6 @@ São funcionalidades contidas nesta tela, vinculada às tratativas: a conclusão
 
 
 
->                                                                          Figura.05
+>                                                                          Figura.07
 
 > Tela exclusiva de ação do admin. Com a funcionalidade de permitir ao admin excluir os dados inseridos pelo cliente em caso de não conformidade com a política do facility ou inserção de dados que não existam no processo de atendimento das OS's
