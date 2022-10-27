@@ -29,7 +29,7 @@
 
 >                                                                          Figura.02
 >
-> A tela de login será o filtro para o usário comum, aqui denominando cliente, e o administrador, denominado admin a partir de agora. Ao clicar no botão de ação “entrar” o cliente será direcionado para a tela de solicitação de OS’s [Figura.03]. O admin, por sua vez, será direcionado a tela gerenciamento das OS’s requeridas [Figura.04].
+> A tela de login será o filtro para o usuário comum, aqui denominando cliente, e o administrador, denominado admin a partir de agora. Ao clicar no botão de ação “entrar” o cliente será direcionado para a tela de solicitação de OS’s [Figura.03]. O admin, por sua vez, será direcionado a tela gerenciamento das OS’s requeridas [Figura.04].
 
 
 
