@@ -1,30 +1,30 @@
 
 
 
-## Avaliação
-
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+.
 # Registro de Testes de Software
 
-Resultado CT-01- Visualizar tela de login:
+> Resultado CT-01- Visualizar tela de login:
 
-<img src="img/ct1.png">
 
-Resultado CT-02- Visualizar página de cadastro de OS:
+![Login](https://user-images.githubusercontent.com/36858665/198399170-7d31db09-97b8-4c17-b361-b3570b2d93f5.png)
 
-<img src="img/ct2.png">
+>Resultado CT-02- Visualizar página de criação de OS:
 
-Resultado CT-03- Visualizar página de Gerenciamento de OS:
 
-<img src="img/ct3.jpg">
+![Criar](https://user-images.githubusercontent.com/36858665/198399207-81b90223-b007-4200-9d1e-fb64eb45e251.png)
 
-Resultado CT-04- Visualizar página de Alterar solicitação:
+>Resultado CT-03- Visualizar página de Gerenciamento de OS:
 
-<img src="img/ct4.jpg">
 
-Resultado CT-05- Visualizar página de Deletar solicitação:
+![ordensservicos](https://user-images.githubusercontent.com/36858665/198399229-6b27e2ea-b596-4085-9d44-cd30ccc1ebcb.png)
 
-<img src="img/ct5.jpg">
+>Resultado CT-04- Visualizar página de Editar solicitação:
 
+![Editar](https://user-images.githubusercontent.com/36858665/198399296-307f0fa6-8d9b-4b41-a8d2-888abc7980cb.png)
+
+>Resultado CT-05- Visualizar página de Deletar solicitação:
+
+![deletar](https://user-images.githubusercontent.com/36858665/198399340-79344eb3-42e7-4f3b-9de1-e283e686c859.png)
 
 
