@@ -1,6 +1,6 @@
 # Registro de Testes de Usabilidade
 
->Os dados coletados nos Plano de Usabilidade foi agrupado e tabulado na tabelas que se seguem abaixo. Cada tabulação está vinculada ao artefato maior, por exemplo: tela de login, tela de criação de Ordens de Serviço [OS's] e assim sucessivamente como demonstrado a seguir:
+>Os dados coletados nos Plano de Usabilidade foram agrupados e tabulados nas tabelas que se seguem abaixo. Cada tabulação está vinculada ao artefato maior, por exemplo: tela de login, tela de criação de Ordens de Serviço [OS's] e assim sucessivamente como demonstrado a seguir:
 
 ## CT-01 Efetuar login
 ![Picture3](https://user-images.githubusercontent.com/36858665/198409121-d92766ea-b2fd-4f8f-81de-d033eae70987.png)                              
