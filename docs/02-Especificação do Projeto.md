@@ -2,9 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Em um contexto de mundo corporativo cada vez mais conectado e com demandas sendo geradas a todo momento, se mostra útil para o setor de facilities de uma empresa ter uma ferramenta informatizada e disponível online na qual seja possível receber e gerenciar ordens de serviço destinadas ao referido setor. Com base no conhecimento e experiência profissional dos integrantes do grupo, os anseios tanto dos profissionais dos setores de facilities quanto dos usuários foram traduzidos nas histórias das personas apresentadas abaixo. 
 
 ## Personas   
 <img src ="/docs/img/DiagramaPersonas.png">
