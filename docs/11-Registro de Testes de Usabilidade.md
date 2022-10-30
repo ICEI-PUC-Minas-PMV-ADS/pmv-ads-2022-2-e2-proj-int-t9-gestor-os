@@ -21,9 +21,11 @@
 ![ModeloPUC_page-0001](https://user-images.githubusercontent.com/36858665/198895147-a0173724-f3a5-4b5c-8e38-282282e47058.jpg)
 > Da leitura dos dados divulgados acima, é possível fazer as seguintes inferências:
 - A taxa de erros que persistiram, que, portanto, são erros de design do próprio aplicativo, obrigará a equipe de desenvolvimento a um retrabalho excessivo;
-- Quase o dobro dos erros foram apontados por um grupo etário de maior idade. O que pode revelar, que os erros não persistentes podem ter surgido tão-somente de uma gap de conhecimento do usuário;
-- A tipificação de erro **_Campo não reconhecia o dado inputado_** expos a necessidade de refazer os tipos de dados **string e integer**
+- Quase o dobro dos erros foram apontados por um grupo etário de maior idade. O que pode revelar que os erros não persistentes podem ter surgido tão-somente de um gap de conhecimento do usuário;
+- A tipificação de erro **_Campo não reconhecia o dado inputado_** expõe a necessidade de refazer os tipos de dados **string e integer**
 - Resolvendo-se as tipificações de erros **_Campo não reconhecia o dado inputado_** e **_Problemas na confirmação da data selecionada_** faz com que, pela regra de Paretto, 80-20, alcança-se o nivel de serviço desejado para soluções desse ramo de construção.
+
+
 ## Cumprimento das tarefas para a entrega da atividade vinculada ao [RF]- 001: Efetuar login (detalhes devem ser lidos no Plano de Teste de Usabilidade do dito RF)
 
 ### Registro dos testes do artefato-chave
