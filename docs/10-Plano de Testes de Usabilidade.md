@@ -20,7 +20,7 @@
 
 
 
-## Tipo de Coletor de Dado
+## Tipo de coletor de dado
 
 > Ao liberar o acesso ao ambiente sandbox, cada usuário recebeu um modelo de arquivo ".docx", do Microsoft Word, previamente populado com as seguintes tabelas, agrupadas por requisito, da seguinte forma: RF/Artefato de teste. 
 
