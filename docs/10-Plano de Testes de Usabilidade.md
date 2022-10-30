@@ -2,8 +2,8 @@
 
 >O objetivo desse teste é receber o feedback do usuário, certificando-se que o aplicativo entrega o esperado e funciona corretamente. Serão 5 (cinco) participantes. 
 
-- O procedimento no qual conduziremos o teste será remotamente via acesso de nosso ambiente sandbox;
-- O método escolhido será por avaliação, o usuário nos informará sua experiência com o aplicativo em artefatos-chave.
+- Usuário terá acesso ao aplicativo de forma online;
+- O método escolhido será por avaliação e criterização de variáveis qualitativas dos artefatos-chave. Sendo o usuário acompanhado por um auditor da equipe desenvolvedora.
 
 >Criamos 3 (tres) atividades a serem cumpridas pelos candidatos, as quais estão ligadas aos 3 (tres) requisitos críticos funcionais **[RF]** abaixo descritos:     
 
