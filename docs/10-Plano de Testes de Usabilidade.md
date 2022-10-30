@@ -75,4 +75,4 @@
 
 ## Coleta dos dados e divulgação
 
-> Os dados coletados após os testes deverão ser coletados e enviados por email para o auditor, pelo usuário. Uma vez coletados todos os dados registrados nas tabelas, eles deverão ser consolidados em uma única tabela a fim de serem divulgados em visuais para análise e geração de insights quanto a provaveis mudanças não só em código mas em lógica e dinamica do aplicativo. O que se dará na fase de Registro dos Teste de Usabilidade
+> Os dados coletados após os testes deverão ser reunidos e enviados pelo usuário por email para o auditor. Para formalizar a rastreabilidade do mesmo. Uma vez coletados todos os dados registrados nas tabelas, eles deverão ser consolidados em uma única tabela a fim de serem divulgados em visuais para análise e geração de insights quanto a provaveis mudanças não só em código mas em lógica e dinamica do aplicativo. O que se dará na fase de Registro dos Teste de Usabilidade
