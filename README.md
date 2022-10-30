@@ -24,7 +24,7 @@ O projeto consiste em uma aplicação web interativa onde um usuário cliente do
 
 ## Instruções de utilização
 
-A aplicação está disponível online no link ******INSERIR LINK*********, sendo acessível através do navegador, não sendo necessário instalar nenhuma aplicação na máquina do usuário. 
+A aplicação está disponível online no link <a href="https://gestordeos.azurewebsites.net/">https://gestordeos.azurewebsites.net/</a>, sendo acessível através do navegador, não sendo necessário instalar nenhuma aplicação na máquina do usuário. 
 
 Para verificar as funcionalidades, poderão ser utilizados os seguintes dados de login: <br>
 Ambiente do administrador: login "adm" senha "123"<br>
