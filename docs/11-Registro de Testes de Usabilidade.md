@@ -51,9 +51,10 @@
 
 ## Cumprimento das tarefas para a entrega da atividade de testes vinculados ao RF- 002
 
-### Teste do artefato-chave do RF-001: inputTextLogin
+### Teste do artefato-chave do RF-002: datePicker
 > Seguindo-se o PTU da RF-001 foram coletados os devidos dados, resultando no divulgador abaixo:
-![ModeloPUC_page-0002](https://user-images.githubusercontent.com/36858665/198896387-8850113e-e4e7-4bb4-a26d-dd6dad1c12a1.jpg)
+
+![ModeloPUC_page-0004](https://user-images.githubusercontent.com/36858665/198897075-9fdf344c-44da-4e7f-b33e-44a0390582c5.jpg)
 
 > Da leitura dos dados divulgados acima, é possível fazer as seguintes inferências:
 - A tipificação de Erro do artefato em questão é o responsável pelo alto índice de persistência de erros durante os testes;
