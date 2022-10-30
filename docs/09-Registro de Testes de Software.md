@@ -47,7 +47,6 @@
 -	Cadastrar os dados da solicitação
 - Clicar em salvar
 
-> Como teste padrão foi realizada a tentativa de login de usuário não cadastrado. Resultando na notificação vista na imagem abaixo: **Ops, não conseguimos realizar seu login, tente novamente.**
+> Como teste padrão foi realizada a tentativa de salvar a OS criada. Resultando na notificação vista na imagem abaixo: **Sua OS foi criada com sucesso.**
 
-![TelaLoginCliente(Tentativa)](https://user-images.githubusercontent.com/36858665/198897970-b90cf5b6-c9d2-45e7-97c5-5cf9330c0e86.png)
--
+![TelaDepoisQueoClienteFazlogin(Solicitar os)](https://user-images.githubusercontent.com/36858665/198898956-fa9b8ef1-41c9-4c6c-8797-d0e41b13873c.png)
