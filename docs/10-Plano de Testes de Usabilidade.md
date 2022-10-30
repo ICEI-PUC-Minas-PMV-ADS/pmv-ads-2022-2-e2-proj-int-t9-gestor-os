@@ -11,26 +11,32 @@
 
 > Decidiu-se no plano de usabilidade dar foco a controles-chave (críticos) para a interface do aplicativo. E nos quais haja maior possibilidade tanto de erro de programação quanto de intuitivade no uso para o usuário final, como se segue abaixo:
 
+
 |ID    | Descrição do Requisito  | Objetivo|
 |------|---------------------------------------------------------------------------|---------------------------------------------|
 |RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha". | Verificar se os campos senha e login estão codificados de maneira a rotear corretamente o usuário para a tela determinada, além de ser claro seu uso: se cliente, criação das OS's, se administrador, para a tela de gestão das OS's |
 |RF-002| A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS. Com campos para informar o escopo da requisição tais como: descrição, tipo, data e hora desejada para realização da demanda. | Verificar se o controle de seleção de data esta codificado corretamente e intuitivo |
 |RF-003| A aplicação deverá exibir uma tela de controle das solicitações feitas, a fim de poder alterar, editar, excluir e criar ordens de serviço  |  Verificar se o controle de conclusão da OS esta corretamente codificado
 
-Iremos acompanhar, coletar dados e registrar a métrica. 
 
 
-# Registros de Testes de Usabilidade
-Os resultados obtidos nos testes de usabilidade realizados são descritos nas Tabelas a seguir:
+## Tipo de Coletor de Dado
 
-CT-01 Efetuar o login
-<img src="img/rt1.png">
+> Ao liberar o acesso ao ambiente sandbox, cada usuário recebeu um modelo de arquivo ".docx", do Microsoft Word, previamente populado com as seguintes tabelas, agrupadas por requisito, da seguinte forma: RF/Artefato de teste, como se verifica abaixo:
 
-CT-02 Cadastrar solicitaçãod e OS
-<img src="img/rt2.png">
+#### Efetuar Login
 
-CT-03 Ver detalhes da solicitação
-<img src="img/rt3.png">
+- Tabela Login - artefato de teste: Controle Input_text_senha (campo senha);
+- Tabela Login - artefato de teste: Controle input_text_login (campo login).
 
-CT-04 Deletar solicitação
-<img src="img/rt4.png">
+#### Criar OS's
+
+- Tabela Criar Login - artefato de teste: Controle Date_Picker (campo seleção de data desejada de execução da OS).
+
+#### Gestão da OS
+
+- Tabela Gestão de OS - artefato de teste: Controle Check_Box (campo de "feito", conclusão da tratativa da OS).
+
+
+
+
