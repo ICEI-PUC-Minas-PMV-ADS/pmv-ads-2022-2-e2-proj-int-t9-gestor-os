@@ -39,7 +39,7 @@
 > | Usuario|Idade|Artefato|Clicks|Quantidade de erros| Persistencia do erro| Comentário|
 > |-----------|-----|------------|-------|----------|-------------|----------
 ###### dados coletados na tabela
->| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (inputTextLogi)| Número de erros verificados durante o teste| Descrição se o erro persistiu, sim ou não (uma lista de validação) após tratativa em tempo real do código| Comentário do auditor da equipe sobre o erro verificado|
+>| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (inputTextLogin)| Número de erros verificados durante o teste| Descrição se o erro persistiu, sim ou não (uma lista de validação) após tratativa em tempo real do código| Comentário do auditor da equipe sobre o erro verificado|
 >|----------------|------------|----------------|----------|--------|------------|---------|
 
 #### Criar OS's
