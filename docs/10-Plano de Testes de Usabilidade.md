@@ -63,7 +63,7 @@
 
 ## Tipo de validação dos dados
 
->Os testes dos artefatos para posterior divulgação dos dados coletados só se dará sob a presença de um auditor da equipe. Que ficará responsável em coligir os resultados em >tempo real.
+>Os testes dos artefatos para posterior divulgação dos dados coletados só se dará sob a presença de um auditor da equipe. Que ficará responsável em coligir os resultados em tempo real.
 
 ## Etapas para cumprimento das atividades
 
