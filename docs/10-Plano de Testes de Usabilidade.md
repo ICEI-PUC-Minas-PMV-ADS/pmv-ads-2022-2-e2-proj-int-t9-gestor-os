@@ -67,7 +67,7 @@
 
 ## Atividades
 
-> Cada usuário, fará os teste a fim de recolher os dados para uso no registro de funcionalidade, a posteriori. Seguindo as seguintes tarefas que compõe a atividade como um todo:
+> Cada usuário, fará os teste a fim de recolher os dados para uso no registro de usabilidade, a posteriori. Seguindo as seguintes tarefas que compõe a atividade como um todo:
 - O aplicativo deve rodar nos seguintes navegadores: Chrome, Firefox, Edge e Safari;
 - Usuário deve estar previamente cadastrado a fim de evitar retrabalho ou confusão na coleta dos dados;
 - Auditor deve apenas coletar os dados, eximindo-se de indicar ou participar do como o usuário usa a funcionalidade testada;
