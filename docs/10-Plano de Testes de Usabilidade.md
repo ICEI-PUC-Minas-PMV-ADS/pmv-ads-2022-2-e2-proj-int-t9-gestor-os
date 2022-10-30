@@ -73,3 +73,6 @@
 - Auditor deve apenas coletar os dados, eximindo-se de indicar ou participar do como o usuário usa a funcionalidade testada;
 - Só haverá melhoria ou ajuste no código do sistema após a conclusão dos testes com todos os usários.
 
+## Coleta dos dados e divulgação
+
+> Os dados coletados após os testes deverão ser coletados e enviados por email para o auditor, pelo usuário. Uma vez coletados todos os dados registrados nas tabelas, eles deverão ser consolidados em uma única tabela a fim de serem divulgados em visuais para análise e geração de insights quanto a provaveis mudanças não só em código mas em lógica e dinamica do aplicativo. O que se dará na fase de Registro dos Teste de Usabilidade
