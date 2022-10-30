@@ -6,9 +6,7 @@ FacilityWeb
 
 `SEMESTRE` 02
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido:
-
- O projeto consiste em uma aplicação web interativa onde possa solicitar e gerenciar ordens de serviços de uma empresa.
+O projeto consiste em uma aplicação web interativa onde um usuário cliente do setor de facilities de uma empresa poderá solicitar/gerar ordens de serviço, bem como os os usuários/administradores e/ou funcionários do referido setor poderão analisar, administrar e cumprir com as ordens de serviço.
 
 ## Integrantes
 
@@ -26,13 +24,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+A aplicação está disponível online no link ******INSERIR LINK*********, sendo acessível através do navegador, não sendo necessário instalar nenhuma aplicação na máquina do usuário. 
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+Para verificar as funcionalidades, poderão ser utilizados os seguintes dados de login: <br>
+Ambiente do administrador: login "adm" senha "123"<br>
+Ambiente do cliente: basta criar seu cadastro na aba própria.
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
 
 # Documentação
 
