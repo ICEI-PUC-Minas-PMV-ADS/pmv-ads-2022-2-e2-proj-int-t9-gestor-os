@@ -29,7 +29,7 @@
 ## Cumprimento das tarefas para a entrega da atividade de testes vinculados ao RF- 001
 
 ### Teste do artefato-chave do RF-001: inputTextLogin
-> Seguindo-se o PTU da RF-001 foram coletados os dados, resultando no divulgador abaixo:
+> Seguindo-se o PTU da RF-001 foram coletados os devidos dados, resultando no divulgador abaixo:
 ![ModeloPUC_page-0002](https://user-images.githubusercontent.com/36858665/198896387-8850113e-e4e7-4bb4-a26d-dd6dad1c12a1.jpg)
 
 > Da leitura dos dados divulgados acima, é possível fazer as seguintes inferências:
@@ -40,7 +40,7 @@
 ***
 
 ### Teste do artefato-chave do RF-001: inputTextSenha
-> Seguindo-se o PTU da RF-001 foram coletados os dados, resultando no divulgador abaixo:
+> Seguindo-se o PTU da RF-001 foram coletados os devidos dados, resultando no divulgador abaixo:
 ![ModeloPUC_page-0003](https://user-images.githubusercontent.com/36858665/198896788-0631c9ef-6001-49a7-8330-353af6b2ebc0.jpg)
 
 
@@ -49,7 +49,15 @@
 - É necessário verificar o porque de um objeto de fácil construção, que pode ser criado via componente, ter apresentado tais erros;
 - A taxa de erros por clicks também tem forte desvio na tipificação do artefato.
 
-### Registro dos testes do artefato-chave
-                              
+## Cumprimento das tarefas para a entrega da atividade de testes vinculados ao RF- 002
+
+### Teste do artefato-chave do RF-001: inputTextLogin
+> Seguindo-se o PTU da RF-001 foram coletados os devidos dados, resultando no divulgador abaixo:
+![ModeloPUC_page-0002](https://user-images.githubusercontent.com/36858665/198896387-8850113e-e4e7-4bb4-a26d-dd6dad1c12a1.jpg)
+
+> Da leitura dos dados divulgados acima, é possível fazer as seguintes inferências:
+- A tipificação de Erro do artefato em questão é o responsável pelo alto índice de persistência de erros durante os testes;
+- É necessário verificar o porque de um objeto de fácil construção, que pode ser criado via componente, ter apresentado tais erros;
+- A taxa de erros por clicks também tem forte desvio na tipificação do artefato.
 
 
