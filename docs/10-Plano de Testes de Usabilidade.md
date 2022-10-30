@@ -63,9 +63,9 @@
 
 ## Tipo de validação dos dados
 
->Os testes dos artefatos para posterior divulgação dos dados coletados só se dará sob a presença de um auditor da equipe. Que ficará responsável em coligir os resultados em tempo real.
+>Os testes dos artefatos para posterior divulgação dos dados coletados só se dará sob a presença de um auditor da equipe. Que ficará responsável em coligir os resultados em >tempo real.
 
-## Atividades
+## Etapas para cumprimento das atividades
 
 > Cada usuário, fará os teste a fim de recolher os dados para uso no registro de usabilidade, a posteriori. Seguindo as seguintes tarefas que compõe a atividade como um todo:
 - O aplicativo deve rodar nos seguintes navegadores: Chrome, Firefox, Edge e Safari;
