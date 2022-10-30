@@ -22,37 +22,48 @@
 
 ## Tipo de Coletor de Dado
 
-> Ao liberar o acesso ao ambiente sandbox, cada usuário recebeu um modelo de arquivo ".docx", do Microsoft Word, previamente populado com as seguintes tabelas, agrupadas por requisito, da seguinte forma: RF/Artefato de teste, como se verifica abaixo:
+> Ao liberar o acesso ao ambiente sandbox, cada usuário recebeu um modelo de arquivo ".docx", do Microsoft Word, previamente populado com as seguintes tabelas, agrupadas por requisito, da seguinte forma: RF/Artefato de teste. 
 
 #### Efetuar Login
 
-- Tabela Login - artefato de teste: Controle Input_text_senha (campo senha);
+- Tabela Login - artefato de teste: Controle inputTextSenha (campo senha);
 ###### Atributos/colunas/variáveis coletadas na tabela
-> | Usuario|Idade|Artefato|Clicks|
-> |-----------|-----|------------|-------|
+> | Usuario|Idade|Artefato|Clicks|Quantidade de erros| Persistencia do erro| Comentário|
+> |-----------|-----|------------|-------|----------|-------------|----------
 ###### dados coletados na tabela
->| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (Input_text_senha)|
->|----------------|------------|----------------|----------|
+>| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (inputTextSenha)| Número de erros verificados durante o teste| Descrição se o erro persistiu, sim ou não (uma lista de validação) após tratativa em tempo real do código| Comentário do auditor da equipe sobre o erro verificado|
+>|----------------|------------|----------------|----------|--------|------------|---------|
 
 ***
-- Tabela Login - artefato de teste: Controle input_text_login (campo login).
-###### Atributos/colunas/variáveis coletadas na tabela
-> | Usuario|Idade|Artefato|Clicks|
-> |-----------|-----|------------|-------|
+- Tabela Login - artefato de teste: Controle inputTextLogin (campo login).
+> | Usuario|Idade|Artefato|Clicks|Quantidade de erros| Persistencia do erro| Comentário|
+> |-----------|-----|------------|-------|----------|-------------|----------
 ###### dados coletados na tabela
->| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (Input_text_login)|
->|----------------|------------|----------------|----------|
+>| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (inputTextLogi)| Número de erros verificados durante o teste| Descrição se o erro persistiu, sim ou não (uma lista de validação) após tratativa em tempo real do código| Comentário do auditor da equipe sobre o erro verificado|
+>|----------------|------------|----------------|----------|--------|------------|---------|
 
 #### Criar OS's
 
-- Tabela Criar Login - artefato de teste: Controle Date_Picker (campo seleção de data desejada de execução da OS).
+- Tabela Criar Login - artefato de teste: Controle datePicker (campo seleção de data desejada de execução da OS).
+> | Usuario|Idade|Artefato|Clicks|Quantidade de erros| Persistencia do erro| Comentário|
+> |-----------|-----|------------|-------|----------|-------------|----------
+###### dados coletados na tabela
+>| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (datePicker)| Número de erros verificados durante o teste| Descrição se o erro persistiu, sim ou não (uma lista de validação) após tratativa em tempo real do código| Comentário do auditor da equipe sobre o erro verificado|
+>|----------------|------------|----------------|----------|--------|------------|---------|
+
 
 #### Gestão da OS
 
-- Tabela Gestão de OS - artefato de teste: Controle Check_Box (campo de "feito", conclusão da tratativa da OS).
+- Tabela Gestão de OS - artefato de teste: Controle checkBox (campo de "feito", conclusão da tratativa da OS)
+> | Usuario|Idade|Artefato|Clicks|Quantidade de erros| Persistencia do erro| Comentário|
+> |-----------|-----|------------|-------|----------|-------------|----------
+###### dados coletados na tabela
+>| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (checkBox)| Número de erros verificados durante o teste| Descrição se o erro persistiu, sim ou não (uma lista de validação) após tratativa em tempo real do código| Comentário do auditor da equipe sobre o erro verificado|
+>|----------------|------------|----------------|----------|--------|------------|---------|
+
 
 
 ## Atividades
 
-> Cada usuário, para cada RF de
+> Cada usuário, em posso das tabelas descritas acima, 
 
