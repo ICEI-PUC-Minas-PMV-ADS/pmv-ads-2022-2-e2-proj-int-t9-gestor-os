@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\GestorOS.csproj": {}
+    "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\src\\GestorOS.csproj": {}
   },
   "projects": {
-    "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\GestorOS.csproj": {
+    "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\src\\GestorOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\GestorOS.csproj",
+        "projectUniqueName": "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\src\\GestorOS.csproj",
         "projectName": "GestorOS",
-        "projectPath": "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\GestorOS.csproj",
+        "projectPath": "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\src\\GestorOS.csproj",
         "packagesPath": "C:\\Users\\ssgab\\.nuget\\packages\\",
-        "outputPath": "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\obj\\",
+        "outputPath": "D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,19 +45,23 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Enums.NET": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.25, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.25, )"
+              "version": "[3.1.30, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.25, )"
+              "version": "[3.1.30, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

@@ -59,7 +59,7 @@ namespace GestorOS.Controllers
             {
                 _context.Add(ordensDeServicos);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "Home");
             }
             return View(ordensDeServicos);
         }

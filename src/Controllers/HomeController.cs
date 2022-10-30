@@ -16,6 +16,11 @@ namespace GestorOS.Controllers
 
             return View();
         }
+        public IActionResult Entrou()
+        {
+
+            return View();
+        }
 
         public IActionResult Privacy()
         {
