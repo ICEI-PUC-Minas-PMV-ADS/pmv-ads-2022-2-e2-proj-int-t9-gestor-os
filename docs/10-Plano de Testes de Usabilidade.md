@@ -1,6 +1,6 @@
 # Plano de Testes de Usabilidade
 
->O objetivo desse teste é receber o feedback do usuário, certificando-se se o site entrega o esperado e funciona corretamente. Serão 5 (cinco) participantes. 
+>O objetivo desse teste é receber o feedback do usuário, certificando-se que o aplicativo entrega o esperado e funciona corretamente. Serão 5 (cinco) participantes. 
 
 - O procedimento no qual conduziremos o teste será remotamente via acesso de nosso ambiente sandbox;
 - O método escolhido será por avaliação, o usuário nos informará sua experiência com o aplicativo em artefatos-chave.
