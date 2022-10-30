@@ -7,12 +7,12 @@
 
 >Criamos 3 (tres) atividades a serem cumpridas pelos candidatos, as quais estão ligadas aos 3 (tres) requisitos críticos funcionais **[RF]** abaixo descritos:     
 
-## Objetivo 
+## Escopo 
 
-> Decidiu-se no plano de usabilidade dar foco a controles-chave (críticos) para a interface do aplicativo. E nos quais haja maior possibilidade tanto de erro de programação quanto de intuitivade no uso para o usuário final, como se segue abaixo:
+> Decidiu-se no plano de usabilidade dar foco a controles-chave (críticos) para a interface do aplicativo. E nos quais haja maior possibilidade tanto de erro de programação quanto de intuitividade no uso para o usuário final, como se segue abaixo:
 
 
-|ID    | Descrição do Requisito  | Objetivo|
+|ID    | Descrição do Requisito  | Atividades|
 |------|---------------------------------------------------------------------------|---------------------------------------------|
 |RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha". | Verificar se os campos senha e login estão codificados de maneira a rotear corretamente o usuário para a tela determinada, além de ser claro seu uso: se cliente, criação das OS's, se administrador, para a tela de gestão das OS's |
 |RF-002| A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS. Com campos para informar o escopo da requisição tais como: descrição, tipo, data e hora desejada para realização da demanda. | Verificar se o controle de seleção de data esta codificado corretamente e intuitivo |
