@@ -19,7 +19,10 @@
 ![TelaLoginCliente(Tentativa)](https://user-images.githubusercontent.com/36858665/198897970-b90cf5b6-c9d2-45e7-97c5-5cf9330c0e86.png)
 
 > para confirma e concluir o exito do teste **CT-01** é necessário uma notificação de êxito de login, como se vê na imagem abaixo:
-![TelaLoginCliente(Tentativa)](https://user-images.githubusercontent.com/36858665/198898236-b6b29178-7352-4a3a-82bf-4fbd7e927c5e.png)
+
+
+![TelaDepoisQueoClienteFazlogin(Solicitar os)](https://user-images.githubusercontent.com/36858665/198898261-248cd431-14d5-4deb-bf03-0154b62b00f5.png)
+
 
 >Resultado CT-02- Visualizar página de criação de OS:
 
