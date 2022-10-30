@@ -4,10 +4,12 @@
 .
 # Registro de Testes de Software
 
-> Resultado CT-01- Visualizar tela de login:
+## Resultado CT-01- Visualizar tela de login:
 
+> Como teste padrão foi realizada a tentativa de login de usuário não cadastrado. Resultando na notificação vista na imagem abaixo: **Ops, não conseguimos realizar seu login, tente novamente.**
 
-![Login](https://user-images.githubusercontent.com/36858665/198399170-7d31db09-97b8-4c17-b361-b3570b2d93f5.png)
+![TelaLoginCliente(Tentativa)](https://user-images.githubusercontent.com/36858665/198897970-b90cf5b6-c9d2-45e7-97c5-5cf9330c0e86.png)
+
 
 >Resultado CT-02- Visualizar página de criação de OS:
 
