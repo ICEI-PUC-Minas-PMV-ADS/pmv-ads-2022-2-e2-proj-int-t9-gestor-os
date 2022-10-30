@@ -27,7 +27,7 @@
 
 ![TelaLoginCliente(Tentativa)](https://user-images.githubusercontent.com/36858665/198897970-b90cf5b6-c9d2-45e7-97c5-5cf9330c0e86.png)
 
-> para confirma e concluir o exito do teste **CT-01** é necessário uma notificação de êxito de login, como se vê na imagem abaixo:
+> para confirma e concluir com sucesso o teste **CT-01** é necessário uma notificação de êxito de login, como se vê na imagem abaixo:
 
 
 ![TelaDepoisQueoClienteFazlogin(Solicitar os)](https://user-images.githubusercontent.com/36858665/198898261-248cd431-14d5-4deb-bf03-0154b62b00f5.png)
@@ -87,9 +87,29 @@
 - 	Informar o que deseja ser alterado
 -	Salvar para que seja alterado.
 
-> Como teste padrão foi realizada a entrata na tela de Gerenciamento de OS. Resultando na notificação vista na imagem abaixo: **OS alterada.**
+> Como teste padrão foi realizada a entrata na tela de alterar OS. Resultando na notificação vista na imagem abaixo: **OS alterada!**
 
 ![AlterarOS](https://user-images.githubusercontent.com/36858665/198899362-7f85230e-a8d1-43d2-85e0-745632c9bb05.png)
+## Resultado CT-05 - Visualizar página de Deletar solicitação:
+
+### Etapas de teste
+
+
+-Acessar o Navegador
+- 	Informar o endereço da aplicação web
+-	Visualizar a página principal
+-	Selecionar a opção de usuário
+-	Visualizar a tela de login
+- 	Realizar o login
+-	Visualizar a página de registro
+-	Escolher a solicitação desejada
+-	Clicar na opção deletar
+-	Confirmar se é essa solicitação e clicar em “Delete”
+
+> Como teste padrão foi realizada a entrata na tela de alterar OS. Resultando na notificação vista na imagem abaixo: **OS deletada!**
+
+![DeletarOs](https://user-images.githubusercontent.com/36858665/198899506-a322c80b-1839-4cde-b6da-a4addce23bf0.png)
+
 
 
 
