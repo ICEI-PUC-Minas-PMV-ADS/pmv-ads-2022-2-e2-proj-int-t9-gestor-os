@@ -1,6 +1,6 @@
 # Registro de Testes de Usabilidade
 
->Os dados coletados no Plano de Usabilidade foram agrupados e tabulados em uma tabela mestre que gerou os resultados abaixo, divulgados para análise em uma ferramenta de Business Inteligence [BI]. Cada tabulação está vinculada ao artefato maior, por exemplo: tela de login, tela de criação de Ordens de Serviço [OS's] e assim sucessivamente como descrito a a seguir. Abaixo segue-se as etapas de consolidação dos dados, e sua divulgação:
+> Os dados coletados no Plano de Usabilidade foram agrupados e tabulados em uma tabela mestre, cujos dados serão divulgados para análise em uma ferramenta de Business Intelligence [BI]. Cada tabulação está vinculada ao Requisito Funcional tratado no **Plano de Testes de Usabilidade [PTU]**, por exemplo: tela de login, tela de criação de Ordens de Serviço [OS's] e assim sucessivamente. Abaixo segue-se as etapas de consolidação daqueles dados e sua divulgação
 
 
 ## Tabela de consolidação dos dados advindos dos testes de usabilidade
