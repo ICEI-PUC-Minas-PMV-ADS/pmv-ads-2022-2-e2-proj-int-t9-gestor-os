@@ -1,11 +1,13 @@
 # Plano de Testes de Usabilidade
 
-O objetivo desse teste é receber o feedback do usuário, certificando se o site entrega o esperado e funciona corretamente. Haverá dois participantes eles foram escolhidos por fazerem parte do Facility e necessitarem dessa solicitação. O procedimento no qual conduziremos o teste será remotamente. O método escolhido será por avaliação, o usuário nos informará sua experiência com a API que ressaltará o resultado positivo ou negativo. Criamos quatro tarefas a serem cumpridas pelos candidatos, a ordem das tarefas será o seguinte:     
+O objetivo desse teste é receber o feedback do usuário, certificando se o site entrega o esperado e funciona corretamente. Serão 5 (cinco) participantes. O procedimento no qual conduziremos o teste será remotamente. O método escolhido será por avaliação, o usuário nos informará sua experiência com a API que ressaltará o resultado positivo ou negativo. Criamos quatro tarefas a serem cumpridas pelos candidatos, a ordem das tarefas será o seguinte:     
 
-1- Fazer login. <br>
-2- Cadastrar OS. <br>
-3- Alterar solicitação.<br>
-4- Deletar solicitação. <br>
+|ID    | Descrição do Requisito  | 
+|------|-----------------------------------------|
+|RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha". |
+|RF-002| A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS. Com campos para informar o escopo da requisição tais como: descrição, tipo, data e hora desejada para realização da demanda. |
+|RF-003| A aplicação deverá exibir uma tela de controle das solicitações feitas, a fim de poder alterar, editar, excluir e criar ordens de serviço  | 
+
 Iremos acompanhar, coletar dados e registrar a métrica. 
 
 
