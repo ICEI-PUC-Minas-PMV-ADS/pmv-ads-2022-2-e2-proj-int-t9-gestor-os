@@ -10,7 +10,7 @@
 
 # Arquitetura do banco de dados
 
-## Banco Cliente
+## Tabela Cliente
 
 > aspecto visual 
 
@@ -22,7 +22,7 @@
 
 ![SQLusuarios](https://user-images.githubusercontent.com/36858665/198900293-a4c3a23b-5974-4ef6-8b47-339f30f380e6.png)
 
-## Banco Ordens de Serviço [OSs]
+## Tabela Ordens de Serviço [OSs]
 
 > aspecto visual 
 
@@ -35,6 +35,6 @@ Para ter acesso a aplicação interativa, <a href="https://gestordeos.azurewebsi
 
 Para fazer o login no sistema, utilize os dados abaixo:
 
-Email: admin_viviane@teste.br
+Email: eduardoramossilva@live.com
 <br>
-Senha: 12345
+Senha: *
