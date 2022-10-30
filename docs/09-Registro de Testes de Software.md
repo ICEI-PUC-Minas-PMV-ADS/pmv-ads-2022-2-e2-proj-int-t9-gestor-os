@@ -6,10 +6,20 @@
 
 ## Resultado CT-01- Visualizar tela de login:
 
+### Etapas de teste
+
+- Acessar o Navegador
+-	Informar o endereço da aplicação web
+-	Visualizar a página principal
+-	Selecionar a opção de usuário
+-	Visualizar a tela de login
+
 > Como teste padrão foi realizada a tentativa de login de usuário não cadastrado. Resultando na notificação vista na imagem abaixo: **Ops, não conseguimos realizar seu login, tente novamente.**
 
 ![TelaLoginCliente(Tentativa)](https://user-images.githubusercontent.com/36858665/198897970-b90cf5b6-c9d2-45e7-97c5-5cf9330c0e86.png)
 
+> para confirma e concluir o exito do teste **CT-01** é necessário uma notificação de êxito de login, como se vê na imagem abaixo:
+![TelaLoginCliente(Tentativa)](https://user-images.githubusercontent.com/36858665/198898236-b6b29178-7352-4a3a-82bf-4fbd7e927c5e.png)
 
 >Resultado CT-02- Visualizar página de criação de OS:
 
