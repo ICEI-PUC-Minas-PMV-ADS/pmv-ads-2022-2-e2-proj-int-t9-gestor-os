@@ -27,7 +27,21 @@
 #### Efetuar Login
 
 - Tabela Login - artefato de teste: Controle Input_text_senha (campo senha);
+###### Atributos/colunas/variáveis coletadas na tabela
+> | Usuario|Idade|Artefato|Clicks|
+> |-----------|-----|------------|-------|
+###### dados coletados na tabela
+>| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (Input_text_senha)|
+>|----------------|------------|----------------|----------|
+
+***
 - Tabela Login - artefato de teste: Controle input_text_login (campo login).
+###### Atributos/colunas/variáveis coletadas na tabela
+> | Usuario|Idade|Artefato|Clicks|
+> |-----------|-----|------------|-------|
+###### dados coletados na tabela
+>| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (Input_text_login)|
+>|----------------|------------|----------------|----------|
 
 #### Criar OS's
 
@@ -40,5 +54,5 @@
 
 ## Atividades
 
-> Cada usuário, para cada RF
+> Cada usuário, para cada RF de
 
