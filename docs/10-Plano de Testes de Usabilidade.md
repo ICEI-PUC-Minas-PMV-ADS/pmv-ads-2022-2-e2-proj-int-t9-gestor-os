@@ -5,7 +5,7 @@
 - O procedimento no qual conduziremos o teste será remotamente via acesso de nosso ambiente sandbox;
 - O método escolhido será por avaliação, o usuário nos informará sua experiência com o aplicativo em artefatos-chave.
 
->Criamos 3 (tres) tarefas a serem cumpridas pelos candidatos, as quais estão ligadas aos requisitos funcionais abaixo descritos:     
+>Criamos 3 (tres) atividades a serem cumpridas pelos candidatos, as quais estão ligadas aos 3 (tres) requisitos críticos funcionais **[RF]** abaixo descritos:     
 
 ## Objetivo 
 
@@ -38,5 +38,7 @@
 - Tabela Gestão de OS - artefato de teste: Controle Check_Box (campo de "feito", conclusão da tratativa da OS).
 
 
+## Atividades
 
+> Cada usuário, para cada RF
 
