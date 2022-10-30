@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title style="text-align:center;">@ViewData["Title"] -Gestor de Ordens de Serviços</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body style="background-image: radial-gradient(circle at 95.45% -4.17%, #ffffff 0, #effbff 50%, #cde4ed 100%);">
+    <header>
+    <div style="background-color:white;">
+
+        <nav class="navbar" style="
+                                   font-family:'Helvetica'; 
+                                   font-size: larger; 
+                                   font-weight:bold;">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color:aliceblue; text-shadow:  1px 1px 2px black; ">GESTOR DE ORDENS DE SERVIÇOS</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+         
+        </nav>
+         </div>
+      </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - GestorOS - <a asp-area="" asp-controller="Home" asp-action="Sobre">Sobre</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

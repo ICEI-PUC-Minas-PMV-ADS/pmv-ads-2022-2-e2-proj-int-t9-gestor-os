@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gestor de Ordens de Serviços.</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+<body style="background-image: radial-gradient(circle at 95.45% -4.17%, #ffffff 0, #effbff 50%, #cde4ed 100%);">
+
+    <header>
+        <nav style="background: rgba(0, 0, 0, 0.4);
+             font-family:'Helvetica';
+             font-size: larger;
+             font-weight:bold; color:aliceblue; text-shadow:  1px 1px 2px black;" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+
+            <div class="container">
+                <a style="font-size:larger; color:aliceblue" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GESTOR DE ORDENS DE SERVIÇOS</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div  style="background-color:transparent;">
+                  <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li  class="nav-item">
+                            <a class="nav-link active" style="
+                                              box-shadow: 2px 2px 5px lightgrey;
+                                              background-image: radial-gradient(circle at 39.33% 110.51%, #f5f9fe 0, #f6f9fe 3.33%, #f7f9fe 6.67%, #f8f9fe 10%, #f8f8fe 13.33%, #f9f8fe 16.67%, #faf8fd 20%, #fbf8fd 23.33%, #fcf7fc 26.67%, #fdf7fb 30%, #fdf7fb 33.33%, #fef7fa 36.67%, #fef7f9 40%, #fff7f8 43.33%, #fff7f8 46.67%, #fff7f7 50%, #fff7f6 53.33%, #fff7f6 56.67%, #fff7f5 60%, #fef7f5 63.33%, #fef8f4 66.67%, #fdf8f4 70%, #fdf8f3 73.33%, #fcf8f3 76.67%, #fbf9f3 80%, #faf9f3 83.33%, #f9f9f4 86.67%, #f9f9f4 90%, #f8faf4 93.33%, #f7faf5 96.67%, #f6faf5 100%);                                              text-shadow: 1px 1px 2px gray;
+                                              border-radius: 10px; 
+                                              background-color:lightgray; 
+                                              color:blanchedalmond;" asp-area="" asp-controller="Home" asp-action="Index">PÁGINA PRINCIPAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="
+                                              box-shadow: 2px 2px 5px lightgrey;
+                                              background-image: radial-gradient(circle at 39.33% 110.51%, #f5f9fe 0, #f6f9fe 3.33%, #f7f9fe 6.67%, #f8f9fe 10%, #f8f8fe 13.33%, #f9f8fe 16.67%, #faf8fd 20%, #fbf8fd 23.33%, #fcf7fc 26.67%, #fdf7fb 30%, #fdf7fb 33.33%, #fef7fa 36.67%, #fef7f9 40%, #fff7f8 43.33%, #fff7f8 46.67%, #fff7f7 50%, #fff7f6 53.33%, #fff7f6 56.67%, #fff7f5 60%, #fef7f5 63.33%, #fef8f4 66.67%, #fdf8f4 70%, #fdf8f3 73.33%, #fcf8f3 76.67%, #fbf9f3 80%, #faf9f3 83.33%, #f9f9f4 86.67%, #f9f9f4 90%, #f8faf4 93.33%, #f7faf5 96.67%, #f6faf5 100%);                                              margin-right: 10px;
+                                              font-size:medium;
+                                              margin-left:10px; margin-right: 10px;
+                                              border-radius: 10px;
+                                              background-color:lightgray;
+                                              text-shadow: 1px 1px 2px gray;
+                                              color:blanchedalmond;" asp-area="" asp-controller="Home" asp-action="Privacy">SOBRE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="
+                                              box-shadow: 2px 2px 5px lightgrey;
+                                              background-image: radial-gradient(circle at 39.33% 110.51%, #f5f9fe 0, #f6f9fe 3.33%, #f7f9fe 6.67%, #f8f9fe 10%, #f8f8fe 13.33%, #f9f8fe 16.67%, #faf8fd 20%, #fbf8fd 23.33%, #fcf7fc 26.67%, #fdf7fb 30%, #fdf7fb 33.33%, #fef7fa 36.67%, #fef7f9 40%, #fff7f8 43.33%, #fff7f8 46.67%, #fff7f7 50%, #fff7f6 53.33%, #fff7f6 56.67%, #fff7f5 60%, #fef7f5 63.33%, #fef8f4 66.67%, #fdf8f4 70%, #fdf8f3 73.33%, #fcf8f3 76.67%, #fbf9f3 80%, #faf9f3 83.33%, #f9f9f4 86.67%, #f9f9f4 90%, #f8faf4 93.33%, #f7faf5 96.67%, #f6faf5 100%);                                              font-size: medium;
+                                              text-shadow: 1px 1px 2px gray;
+                                              border-radius: 10px;
+                                              background-color:lightgray;
+                                              color:blanchedalmond;" href="/OrdensDeServicos">ORDENS DE SERVIÇOS</a>
+                        </li>
+
+
+                    </ul>
+                  </div class="shadow-lg p-3 mb-5 bg-body rounded">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="container body-content">
+            @RenderBody()
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - GestorOS - <a asp-area="" asp-controller="Home" asp-action="Privacy">Sobre</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

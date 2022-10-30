@@ -1,0 +1,35 @@
+﻿@model LoginModel
+
+@{ 
+
+    Layout = "LayoutDeslogado";
+    ViewData["Title"] = "Login";
+}
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" aria-label="Close">X</button>
+        @TempData["MensagemErro"]
+    </div>
+}
+<form class="shadow-lg p-3 mb-5 bg-body rounded" style="margin-top:10%; margin-left: 27.5%; width: 40%; background-image: radial-gradient(circle at -7.92% 90.56%, #f5f9f1 0, #f4f9f2 3.33%, #f3faf3 6.67%, #f2faf4 10%, #f1faf5 13.33%, #f0faf6 16.67%, #f0faf7 20%, #effaf8 23.33%, #effaf9 26.67%, #eefafa 30%, #eefafb 33.33%, #effafc 36.67%, #effafd 40%, #effafe 43.33%, #f0f9ff 46.67%, #f1f9ff 50%, #f2f9ff 53.33%, #f3f8ff 56.67%, #f4f8ff 60%, #f5f8ff 63.33%, #f7f7ff 66.67%, #f8f7ff 70%, #f9f7fe 73.33%, #fbf6fe 76.67%, #fcf6fd 80%, #fdf6fc 83.33%, #fef6fb 86.67%, #fff5fa 90%, #fff5f9 93.33%, #fff5f8 96.67%, #fff5f7 100%); border-radius:10px; " asp-controller="Login" asp-action="Entrar" method="post">
+
+    <div class="mb-3">
+        <h1 class="text-center" style="color:navajowhite; text-shadow:  1px 1px 2px black; font-family:'Montserrat', sans-serif; font-size:medium; font-weight:bolder; ">Faça o login para continuar</h1>
+        <label for="exampleInputEmail1" class="form-label" style="font-family:'Helvetica'; font-size:larger; font-weight: bold; color:white; text-shadow:  1px 1px 2px black;">Email</label>
+        <input type="text" asp-for="Login" placeholder="Usuário ou email" class="form-control" style="height= 10px;" id="login">
+        @Html.ValidationMessageFor(x => x.Login)
+    </div>
+    <div class="mb-3">
+        <label style="font-family:'Helvetica'; font-size:larger; font-weight: bold; color:white; text-shadow:  1px 1px 2px black;" for="senha" class="form-label">Senha</label>
+        <input type="password" placeholder="Senha" asp-for="Senha" class="form-control" id="exampleInputPassword1">
+        @Html.ValidationMessageFor(x => x.Senha)
+    </div>
+    <button type="submit" class="btn btn-primary" style="background-color:darkorange; 
+                                                         border: 0px;
+                                                         border-radius:300px;
+margin-left:39.5%;"
+      >Entrar</button>
+
+</form>
+

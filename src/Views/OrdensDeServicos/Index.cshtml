@@ -1,0 +1,64 @@
+﻿@model IEnumerable<GestorOS.Models.OrdensDeServicos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="text-align:center;
+         font-size:medium; color:grey; 
+         text-shadow: 1px 1px 2px white;
+         font-family: sans-serif; 
+         font-weight: bold">TABELA DE GERENCIAMENTO DE ORDENS DE SERVIÇOS.</h1>
+
+<p>
+    <a style="font-size:medium; 
+              font-weight:bolder; 
+              color:blanchedalmond ;
+              text-shadow: 1px 1px 2px black;"
+    ;" asp-action="Create">Criar OS</a>
+</p>
+
+<div class="shadow-lg p-3 mb-5 bg-body rounded">
+    <table style="font-family:sans-serif;font-weight:bolder; color: white; text-shadow:  1px 1px 2px black;" class="table table-bordered border-primary">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Feito)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Feito)
+            </td>
+            <td>
+                <a style="color:blanchedalmond"asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a style="color:blanchedalmond" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a style="color:blanchedalmond" asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
