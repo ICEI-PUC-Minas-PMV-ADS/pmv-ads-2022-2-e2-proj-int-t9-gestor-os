@@ -61,9 +61,15 @@
 >| Nome do usuario|Idade do usuário |Artefato testado pelo usuário|Clicks/Ações realizadas pelo usuário sobre o artefato (checkBox)| Número de erros verificados durante o teste| Descrição se o erro persistiu, sim ou não (uma lista de validação) após tratativa em tempo real do código| Comentário do auditor da equipe sobre o erro verificado|
 >|----------------|------------|----------------|----------|--------|------------|---------|
 
+## Tipo de validação dos dados
 
+>Os testes para posterior registro dos mesmos só se dará sob a presença de um auditor da equipe. Que ficará responsável em captar os resultados em tempo real.
 
 ## Atividades
 
-> Cada usuário, em posso das tabelas descritas acima, 
+> Cada usuário, fará os teste a fim de recolher os dados para uso no registro de funcionalidade, a posteriori. Seguindo as seguintes tarefas que compõe a atividade como um todo:
+- O aplicativo deve rodar nos seguintes navegadores: Chrome, Firefox, Edge e Safari;
+- Usuário deve estar previamente cadastrado a fim de evitar retrabalho ou confusão na coleta dos dados;
+- Auditor deve apenas coletar os dados, eximindo-se de indicar ou participar do como o usuário usa a funcionalidade testada;
+- Só haverá melhoria ou ajuste no código do sistema após a conclusão dos testes com todos os usários.
 
