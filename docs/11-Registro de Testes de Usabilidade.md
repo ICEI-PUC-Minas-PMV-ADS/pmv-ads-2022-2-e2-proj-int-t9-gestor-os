@@ -52,13 +52,32 @@
 ## Cumprimento das tarefas para a entrega da atividade de testes vinculados ao RF- 002
 
 ### Teste do artefato-chave do RF-002: datePicker
-> Seguindo-se o PTU da RF-001 foram coletados os devidos dados, resultando no divulgador abaixo:
+> Seguindo-se o PTU da RF-002 foram coletados os devidos dados, resultando no divulgador abaixo:
 
 ![ModeloPUC_page-0004](https://user-images.githubusercontent.com/36858665/198897075-9fdf344c-44da-4e7f-b33e-44a0390582c5.jpg)
 
 > Da leitura dos dados divulgados acima, é possível fazer as seguintes inferências:
-- A tipificação de Erro do artefato em questão é o responsável pelo alto índice de persistência de erros durante os testes;
-- É necessário verificar o porque de um objeto de fácil construção, que pode ser criado via componente, ter apresentado tais erros;
-- A taxa de erros por clicks também tem forte desvio na tipificação do artefato.
+- A tipificação de Erro do artefato em questão é a que mais desvia em relação a má abordagem de treinamento. Já que é a que tem maior persistencia vinculada a erro por falta de conhecimento do usuário;
+- É necessário verificar uma forma de notificar o usuário, durante a seleção da data de desejo de execução da **Orden de Serviço [OS]**, que a ação só será um sucesso no momento que ele confirma a seleção;
+- A leitura também nos diz que sanado o problema com este controle faz com que o RF-002 seja plenamente satisfeito.
+
+
+### Teste do artefato-chave do RF-003: checkBox
+> Seguindo-se o PTU da RF-003 foram coletados os devidos dados, resultando no divulgador abaixo:
+![ModeloPUC_page-0005](https://user-images.githubusercontent.com/36858665/198897333-8e657320-d814-4cad-bf87-3d46732e09d4.jpg)
+> Da leitura dos dados divulgados acima, é possível fazer as seguintes inferências:
+- A tipificação de Erro do artefato em questão é a única que apresenta falha em eventos da propriedade **reset**;
+- É a segunda tipificação a desviar para cima o erro de confirmação de persistencia.
+
+## Comentários e Conclusão
+> O RTU seguiu à risca o PTU. Trazendo à baila todos as etapas das tarefas para se cumprirem as ativades do escopo proposto. Dando enfase as RFs a fim de testar apenas os artefatos mais críticos na visão da equipe de desenvolvimento. 
+> Claramente, melhorias serão necessárias assim como destacar novas formas de entregas em menores espaço de tempo a fim de coletar feedbacks mais curtos dos usuários.
+
+> Da análise do RTU foram levantadas as seguintes melhorias de design:
+- Criação de ramo de teste para rever as funcionalidades que desviaram no teste de persistencia;
+- Melhoria dos estilos em CSS para evitar que o usuário não consiga entender se o campo está ativo ou não;
+- Nova compilação dos controles do tipo InputText a fim de sanar o problema dos desvio de persistencia;
+- Vincular novas opções de alertas e notificações que indiquem aos usuários os passos corretos a percorrerem nos controle de data da solução.
+
 
 
