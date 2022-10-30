@@ -56,7 +56,8 @@ margin-left:39.5%;"
 > Aspecto Visual
 
 
-![Criar](https://user-images.githubusercontent.com/36858665/198392799-f837b748-47fa-461e-a63e-a76b11b56a69.png)
+![TelaDepoisQueoClienteFazlogin(Solicitar os) (1)](https://user-images.githubusercontent.com/36858665/198899918-d4b91ded-dc09-4079-93c9-af7f86568a0e.png)
+
 
 > Artefato de Construção
 
@@ -120,8 +121,8 @@ margin-left:39.5%;"
 > Aspecto Visual
 
 
+![TelaDoAdm (3)](https://user-images.githubusercontent.com/36858665/198899822-7b662e8f-abd4-4cc1-8b70-64e63c1090a6.png)
 
-![ordensservicos](https://user-images.githubusercontent.com/36858665/198395087-de8d970b-9b58-4623-82f5-e8f18fe179e2.png)
 
 > Artefato de Construção
 
