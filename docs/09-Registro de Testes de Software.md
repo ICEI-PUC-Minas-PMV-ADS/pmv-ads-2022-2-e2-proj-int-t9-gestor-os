@@ -70,3 +70,26 @@
 
 ![TelaDoAdm](https://user-images.githubusercontent.com/36858665/198899237-d9aa95d0-b171-47d9-b2bd-a9fd20489085.png)
 
+## Resultado CT-04 - Visualizar página de Alterar solicitação:
+
+### Etapas de teste
+
+
+- Acessar o Navegador
+-Informar o endereço da aplicação web
+- Visualizar a página principal
+- Selecionar a opção de usuário
+-	Visualizar a tela de login
+- Realizar o login
+- Visualizar a página de registro
+-	Escolher a solicitação desejada
+-	Clicar em Alterar
+- 	Informar o que deseja ser alterado
+-	Salvar para que seja alterado.
+
+> Como teste padrão foi realizada a entrata na tela de Gerenciamento de OS. Resultando na notificação vista na imagem abaixo: **OS alterada.**
+
+![AlterarOS](https://user-images.githubusercontent.com/36858665/198899362-7f85230e-a8d1-43d2-85e0-745632c9bb05.png)
+
+
+
