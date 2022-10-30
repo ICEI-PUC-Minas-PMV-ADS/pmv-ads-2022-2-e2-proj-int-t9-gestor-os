@@ -45,8 +45,28 @@
 - Realizar o login
 - Visualizar a página inserção de dados
 -	Cadastrar os dados da solicitação
-- Clicar em salvar
+- Clicar em criar
 
-> Como teste padrão foi realizada a tentativa de salvar a OS criada. Resultando na notificação vista na imagem abaixo: **Sua OS foi criada com sucesso.**
+> Como teste padrão foi realizada a tentativa de criar a OS. Resultando na notificação vista na imagem abaixo: **Sua OS foi criada com sucesso.**
 
 ![TelaDepoisQueoClienteFazlogin(Solicitar os)](https://user-images.githubusercontent.com/36858665/198898956-fa9b8ef1-41c9-4c6c-8797-d0e41b13873c.png)
+
+## Resultado CT-03 - Visualizar página de Gerenciamento OS:
+
+### Etapas de teste
+
+
+- Acessar o Navegador
+-	Informar o endereço da aplicação web
+- Visualizar a página principal
+-	Selecionar a opção de usuário
+-	Visualizar a tela de login
+-	Realizar o login
+-	Visualizar a página de registro
+
+> Como teste padrão foi realizada a entrata na tela de Gerenciamento de OS.
+
+
+
+![TelaDoAdm](https://user-images.githubusercontent.com/36858665/198899237-d9aa95d0-b171-47d9-b2bd-a9fd20489085.png)
+
