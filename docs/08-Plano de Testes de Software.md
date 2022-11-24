@@ -8,13 +8,13 @@ Casos de testes:
  
 | **Caso de Teste** 	| CT-01 – Visualizar tela de login  	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-01 - O site deve apresentar uma tela inicial de login para cada tipo de login o usuário deseja realizar. |
+|	Requisito Associado 	| RF-01 - A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha" e escolher qual tipo de usúario. |
 | Objetivo do Teste 	| Verificar se a aplicação web exibe todos os elementos requisitados. |
 |   Passos | -                     -                 -     | 
 |    1   	|    Acessar o Navegador                        |
 |    2    |    Informar o endereço da aplicação web       |
 |    3    |    Visualizar a página principal              |
-|    4    |    Selecionar a opção de usuário              |
+|    4    |    Selecionar a opção de "Faça o Login"       |
 |    5    |    Visualizar a tela de login                 |
 |Critério de Êxito | Deve ser exibido uma tela de login para a entrada de usuários. |
 
@@ -22,13 +22,13 @@ Casos de testes:
 
 | **Caso de Teste** 	| CT-02 – Visualizar página de cadastro de ordens de serviço.	|
 | :---: | :---:|
-|Requisito Associado | RF-03 - Na tela de entrada de dados da OS devem haver campos para o usuário informar o escopo de sua requisição.    |
+|Requisito Associado | RF-02 - A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS onde haverão campos para informar o escopo de requisição tais como: Descrição, tipo, data , horário e realização da OS.    |
 | Objetivo do Teste 	| Verificar se a aplicação web exibe uma página com campos de preenchimento para o usuário cadastrar os dados das OSs. |
 | Passos |  -                -                         - |            
 |    1   |     Acessar o Navegador                       |
 |    2   |     Informar o endereço da aplicação web      |
 |    3   |     Visualizar a página principal             |
-|    4   |     Selecionar a opção de usuário             |
+|    4   |     Selecionar a opção de "Faça o Login"      |
 |    5   |     Visualizar a tela de login                |  
 |    6   |     Realizar o login                          |
 |    7   |     Visualizar a página inserção de dados     |
@@ -40,28 +40,28 @@ Casos de testes:
 
 | **Caso de Teste** 	| CT-03 – Visualizar página de Gerenciamento OS.	|
 | :---: | :---:|
-|Requisito Associado | RF-04 - Na tela de gerenciamento de OS, o site deverá exibir uma barra de pesquisa onde ao pesquisar as datas ou os tipos das OS elas serão exibidas  |
+|Requisito Associado | RF-03 - A aplicação deverá exibir uma tela para o Admnistrador onde ele poderá alterar, editar , excluir e criar ordens de serviços |
 | Objetivo do Teste 	| Verificar se a aplicação web exibe uma página com dados dos funcionários, alterar, ver detalhes, excluir ou adicionar solicitações. |
 | Passos   |     -                  -              -  |
 |     1    |     Acessar o Navegador                  |
 |     2    |     Informar o endereço da aplicação web |
 |     3    |     Visualizar a página principal        |
-|     4    |     Selecionar a opção de usuário        | 
+|     4    |     Selecionar a opção de "Faça o Login" | 
 |     5    |     Visualizar a tela de login           |
-|     6    |    Realizar o login                      |
-|     7    |    Visualizar a página de registro       |
+|     6    |     Realizar o login                     |
+|     7    |     Visualizar a página de registro      |
 |Critério de Êxito | Deve ser exibido após o login, uma página especifica do registro de dados dos funcionários e solicitações.|
 <br>*
 
 | **Caso de Teste** 	| CT-04 – Visualizar página de Alterar solicitação	|
 | :---: | :---:|
-|Requisito Associado | RF-04 -Na tela de gerenciamento de OS, o site deverá exibir uma barra de pesquisa onde ao pesquisar as datas ou os tipos das OS elas serão exibidas.   |
+|Requisito Associado | RF-03 -A aplicação deverá exibir uma tela para o Admnistrador onde ele poderá alterar, editar , excluir e criar ordens de serviços  |
 | Objetivo do Teste 	| Verificar se a aplicação web exibe uma página com dados dos funcionários e alterar a solicitação. |
 | Passos 	|  -              -                 -   |
 |   1     |  Acessar o Navegador                  |
 |   2     |  Informar o endereço da aplicação web | 
 |   4     |  Visualizar a página principal        |
-|   5     |  Selecionar a opção de usuário        |
+|   5     |  Selecionar a opção de "Faça o Login" |
 |   6     |  Visualizar a tela de login           |
 |   7     |  Realizar o login                     |
 |   8     |  Visualizar a página de registro      |
@@ -75,13 +75,13 @@ Casos de testes:
 
 | **Caso de Teste** 	| CT-05 – Visualizar página de Deletar solicitação	|
 | :---: | :---:|
-|Requisito Associado | RF-06 -Na tela de gerenciamento de OS, o site deve exibir um procedimento de exclusão de OS. |
+|Requisito Associado | RF-03 -A aplicação deverá exibir uma tela para o Admnistrador onde ele poderá alterar, editar , excluir e criar ordens de serviços |
 | Objetivo do Teste 	| Verificar se a aplicação web exibe uma página com dados dos funcionários, alterar, ver detalhes, excluir ou adicionar solicitações. |
 | Passos 	|        -         -             -       |
 |    1    |        Acessar o Navegador             |                 
 |    2    |  Informar o endereço da aplicação web  |
 |    3    |  Visualizar a página principal         |
-|    4    |  Selecionar a opção de usuário         | 
+|    4    |  Selecionar a opção de "Faça o Login"  | 
 |    5    |  Visualizar a tela de login            |       
 |    6    |  Realizar o login                      |
 |    7    |  Visualizar a página de registro       |
