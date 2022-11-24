@@ -42,9 +42,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                                                                                                        |Prioridade|
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------|
-|RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha".                                        |Alta      |
+|RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha" e escolher qual tipo de usúario.               |Alta      |
 |RF-002| A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS onde haverão campos para informar o escopo de requisição tais como: Descrição, tipo, data , horário e realização da OS.                               |Alta      |
 |RF-003| A aplicação deverá exibir uma tela para o Admnistrador onde ele poderá alterar, editar , excluir e criar ordens de serviços| Média     |
+|RF-004| A aplicação deverá exibir uma tela para pesquisar as OS's | Média     |
+|RF-005| A aplicação deverá exibir uma tela para o Admin gerenciar os Usuários. | Média     |
  
 
 ### Requisitos não Funcionais
