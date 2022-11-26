@@ -1,7 +1,3 @@
-
-
-
-.
 # Registro de Testes de Software
 
 ## Resultado CT-01- Visualizar tela de login:
