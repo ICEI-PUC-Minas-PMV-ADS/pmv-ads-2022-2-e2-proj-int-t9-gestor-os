@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Nesta seção será sobre as definições do ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (GitHub)
+Abaixo serão apresentadas as definições do ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza.
 
 ## Controle de Versão
 
@@ -56,22 +56,8 @@ Link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/129/views/1
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código : Visual Studio Code 19
-- Ferramentas de comunicação : Teams.
+- Editor de código : Visual Studio Code 19 e Visual Studio 2022 (verão Enterprise)
+- Ferramentas de comunicação : Teams, Whatsapp.
 - Ferramentas de desenho de tela (_wireframing_): MockFlow.
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [MockFlow] - Criação de diagramas. (Equipe já tem experiencia com o programa)
-> - [Github](https://github.com/) - Repositório do projeto
-> - [VisualStudioCode 2019] - Edição de codigo (O mais completo na visão dos desenvolvedores da equipe)
-> - [Git] - Organização de commits,versionamento e etc.. do projeto ao Github. (Recomendação da faculdade)
-> - [Microsoft SQL Server] - Conexão com o banco de dados. (Facil manuseio)
-> - [NClass] - Ferramenta para criação de Diagrama de Classes UML (Equipe já tem experiencia com esse programa)
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão, bem como ser bem fácil e intuitivo o processo de atualização das novas versões criadas pela equipe de desenvolvimento. As ferramentas de comunicação utilizadas possuem integração semelhante, possibilitanto comunicação assíncrona a fim de que cada membro da equipe possa trabalhar no dia e horário que lhe for mais conveniente e fornecer anúncios do avanço produzido em tempo real.. Por fim, para criar diagramas utilizamos o MockFlow pois este se mostrou bem simples de ser atualizado e versátil para o desenvolvimento.
