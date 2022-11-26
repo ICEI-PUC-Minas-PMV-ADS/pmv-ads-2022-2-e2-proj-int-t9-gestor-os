@@ -16,15 +16,9 @@ Cada Objeto no Banco de Dados será um entidade física, a Tabela, enquanto as r
 ## Tecnologias Utilizadas
 
 Neste projeto utilizamos tecnologias de desenvolvimento Front-End, tais como HTML5 para escrever o corpo da página web em que se baseia a solução. Para estilizar as páginas html e deixar a interface mais agradável ao usuário foram implementadas páginas de estilo baseadas em CSS3. Por fim, foi utilizado um código em C# para criar o banco de dados que irá gerenciar os usuários cadastrados (clientes e administradores) bem como as ordens de serviço geradas.
-.
+<br>
 
 ## Hospedagem
+Por se tratar de uma aplicação interativa e, portanto, que utiliza mais recursos do que uma simples página estática, a plataforma escolhida para implementação do projeto foi a Microsoft Azure. A aplicação conta com um grupo de recursos na Azure constando de um serviço de aplicativo web, um servidor SQL e um banco de dados baseado em SQL.
 
-Nesse primeiro momento de desenvolvimento, a aplicação utilizará a plataforma do GitHub Pages como ambiente de hospedagem devido a facilidade de uso e atualização com as mudanças que serão implementadas com o decorrer do projeto.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+Para poder acessar o projeto, basta clicar <a href="https://gestoros.azurewebsites.net/">aqui</a>.
