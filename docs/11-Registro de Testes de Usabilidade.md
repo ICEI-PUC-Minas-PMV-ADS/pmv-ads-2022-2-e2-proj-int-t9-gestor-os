@@ -8,7 +8,7 @@
 
 ### Tabela Mestre
 
-![TbMeste](https://user-images.githubusercontent.com/36858665/198893402-17c217b4-b7db-4752-a1e3-52c0c88027b2.PNG)
+![TbMeste](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t9-gestor-os/blob/main/Imgs/tabelatesters.jpg?raw=true)
 
 > Na figura acima temos o modelo dimensional dos dados obtidos do PTU: com as devidas variáveis, além de novas como **Faixa Etária, Tipo de Persistência e Erros Comentados**. Esses são detalhados abaixo:
 
@@ -16,7 +16,7 @@
 - Tipo de persistência: essa variável, que surge durante o processo de modelagem estatística, serve para agrupar os tipos de erros/falhas identificadas pelos usuários durante os testes no aplicativo. Possibilitando uma resposta mais imediata e precisa sobre o problema apresentado;
 - Erros comentados: essa variável, que surge durante o processo de modelagem estatística, serve para por em evidencia os não erros dos artefatos-chaves testados.
 
-## RTU Geral dos RF-001..RF-003 (detalhes devem ser lidos no PTU)
+## RTU Geral dos RF-001..RF-005 (detalhes devem ser lidos no PTU)
 
 ![ModeloPUC_page-0001](https://user-images.githubusercontent.com/36858665/198895147-a0173724-f3a5-4b5c-8e38-282282e47058.jpg)
 > Da leitura dos dados divulgados acima, é possível fazer as seguintes inferências:
@@ -68,6 +68,20 @@
 > Da leitura dos dados divulgados acima, é possível fazer as seguintes inferências:
 - A tipificação de Erro do artefato em questão é a única que apresenta falha em eventos da propriedade **reset**;
 - É a segunda tipificação a desviar para cima o erro de confirmação de persistencia.
+
+
+### Teste do artefato-chave do RF-004: searchBox
+> Seguindo-se o PTU da RF-004 foram coletados os devidos dados, resultando no divulgador abaixo:
+![ModeloPUC_page-0005](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t9-gestor-os/blob/main/Imgs/searchboox.jpg?raw=true)
+> Da leitura dos dados divulgados acima, é possível fazer a seguinte inferência:
+- Não foi encontrado erro.
+
+
+### Teste do artefato-chave do RF-005: staticText
+> Seguindo-se o PTU da RF-005 foram coletados os devidos dados, resultando no divulgador abaixo:
+![ModeloPUC_page-0005](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t9-gestor-os/blob/main/Imgs/statictext.jpg?raw=true)
+> Da leitura dos dados divulgados acima, é possível fazer a seguinte inferência:
+- Não foi encontrado erro.
 
 ## Comentários e Conclusão
 > O RTU seguiu à risca o PTU. Trazendo à baila todos as etapas das tarefas para se cumprirem as ativades do escopo proposto. Dando enfase as RFs a fim de testar apenas os artefatos mais críticos na visão da equipe de desenvolvimento. 
