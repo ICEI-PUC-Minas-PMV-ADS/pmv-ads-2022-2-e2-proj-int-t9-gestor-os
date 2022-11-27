@@ -51,7 +51,7 @@ Ambiente do cliente: basta criar seu cadastro na aba própria.
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li>De modo a deixar o ambiente do GitHub mais organizado e de mais fácil orientação, optou-se por colocar o código-fonte da solução em uma pasta em separado, que pode ser acessado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t9-gestor-os/tree/main/C%C3%B3digo-Fonte">clicando aqui</a></li>
 
 # Apresentação
 
