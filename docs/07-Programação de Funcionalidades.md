@@ -1,111 +1,119 @@
 # Programação de Funcionalidades
 
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
+
+Abra um navegador de Internet e informe a seguinte URL: https://gestoros.azurewebsites.net/
+<br> Para logar com admin use Email: admin2@gmail.com  senha: 2
 
 
-|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha". | Index.cshtml / LoginController.cs | 
-|RF-002| A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS. Com campos para informar o escopo da requisição tais como: descrição, tipo, data e hora desejada para realização da demanda. | Create.cshtml / ClienteController.cs | 
-|RF-003| A aplicação deverá exibir uma tela de controle das solicitações feitas, a fim de poder alterar, editar, excluir e criar ordens de serviço  | Index.cshtml / OrdensDeServicosController.cs |
-|RF-004| A aplicação deverá utilizar um seletor na tela de login para verificar o tipo de perfil do usuário. | PerfilEnum.cs |
-|RF-005| É um requisito não funcional. A aplicação deverá ter um filtro para identificar quais páginas os tipos de usuários poderão acessar. | PaginaParaAdministradorLogado.cs |
-|RF-006| É um requisito não funcional. A aplicação deverá ter um filtro para identificar quais páginas os tipos de usuários poderão acessar. | PaginaParaUsuarioLogado.cs |
-|RF-007| É um requisito não funcional. A aplicação deverá exibir a sessão criada quando logado. | Sessao.cs / ISessao.cs | 
-|RF-008| Controlador do Administrador | AdmController.cs |
-|RF-009| Controlador do Usuário | UsuariosController.cs |
-|RF-010| Controlador do Cadastro | CadastroController.cs |
-|RF-011| Controlador Restrito | RestritoController.cs |
+## Cadastre-se (RNF-01, RF-01)
+A tela de CADASTRO do sistema contém campos para inserir o email, nome, senha e tipo de Usuário, assim que feito o cadastro essas informações são enviadas ao SGBD SQL Server, cadastradas e liberando o usuário para poder fazer o login no sistema.
 
-# Arquitetura do banco de dados
+<img src ="/docs/img/Cadastrar.png">
+### Artefatos da funcionalidade 
 
-## Tabela Cliente
+ <li> UsuarioController.cs </li>
+ <li> Create.htmlcs </li>
 
-> aspecto visual 
+## Enviar OS(RNF-002,RF-02)
 
-![ClientesSGBD](https://user-images.githubusercontent.com/36858665/198900248-8c65ebf5-5d17-4dca-ad5c-9d49fb6d854a.png)
+Na tela de criação das ordens de serviços , o usuário irá informar a descrição, tipo, data , hora e se já foi realizado a OS. Depois de feito, a ordem de serviço irá ser enviada ao SGBD SQL SERVER onde o administrador do sistema poderá visualizar e fazer suas edições das ordens de serviços.
+<img src ="/docs/img/Enviarr.png">
 
-## Banco Usuários
+### Artefatos da funcionalidade 
 
-> aspecto visual 
+ <li> OrdensDeServicosController.cs </li>
+ <li> Create.htmlcs </li>
+ 
+## Gerenciar OS (RF-03,RF-04)
 
-![SQLusuarios](https://user-images.githubusercontent.com/36858665/198900293-a4c3a23b-5974-4ef6-8b47-339f30f380e6.png)
+Tela de gerenciamento de ordens de serviços onde o administrador tem 2 CRUD'S, um para ordens de serviços que foram registradas no banco de dados e um para gerenciar os usuários.
 
-## Tabela Ordens de Serviço [OSs]
+<img src ="/docs/img/Gerenciarr.png">
 
-> aspecto visual 
+### Artefatos da funcionalidade 
 
-![SQLordensservicos](https://user-images.githubusercontent.com/36858665/198900311-b591a2da-ae83-473d-9635-dd8c7065e0a4.png)
+ <li> AdmController.cs  </li>
+ <li> OrdensDeServicosController.cs </li>
+ <li> UsuarioController.cs  </li>
+ <li> Create.htmlcs </li>
+ <li> Details.htmlcs </li>
+ <li> Edit.htmlcs</li>
+ <li> Index.htmlcs </li>
 
-## Perfil de Usuários
+## Gerenciar Usuários (RF-05)
+Tela de gerenciamento de usuários onde somente o administrador do sistema pode acessar, a tela contém todos os usuários que fizeram registro no site e o administrador poderá alter cada campo registrado ou criar um novo login.
 
-> aspecto visual
+<img src ="/docs/img/Usuars.png">
 
-![Enums](https://user-images.githubusercontent.com/76191741/204103334-d28c6347-9293-41ed-8d4e-4612c6b41afb.JPG)
+### Artefatos da funcionalidade 
+ <li> AdmController.cs  </li>
+ <li> UsuarioController.cs  </li>
+ <li> Create.htmlcs </li>
+ <li> Details.htmlcs </li>
+ <li> Edit.htmlcs</li>
+ <li> Index.htmlcs </li>
+ <li> Adm.htmlcs </li>
+ 
 
-## Página para Usuário Admin
+## Disponibilidade do sistema(RNF-02/03,04,05)
 
-> aspecto visual
+Com o código a seguir , o sistema mantém as sessões dos usuários aberta por somente 1 hora, disponiblidade em todos os horários e suporta pelo menos dez usuários simultaneamente 24/7.
 
-![Filters_admin_page](https://user-images.githubusercontent.com/76191741/204103409-53527a04-462b-48f6-8f0c-3f3eb58f198d.JPG)
+<img src ="/docs/img/CODIGO.png">
 
-## Página para Usuário Comum
+### Artefatos da funcionalidade 
 
-> aspecto visual
+ <li>appsettings.json </li>
+ <li>profile.arm.json </li>
+ <li>launchSettings.json </li>
+ <li>Startup.cs </li>
+ <li>Program.cs </li>
 
-![Filters_user_page](https://user-images.githubusercontent.com/76191741/204103437-e8e90f9c-e056-4d45-9f55-a93a11a18bc5.JPG)
+### Requisitos atendidos 
 
-## Sessão do Usuário
+- RNF-001	Os dados inseridos pelos usuários na tela de login serão cadastrados no banco de dados.
+- RNF-002	Os dados das OSs devem mostrar data, hora e situação para o coordenador/administrador.
+- RNF-003	A aplicação web deverá ter disponibilidade em todos os horários.
+- RNF-004	A aplicação web deve manter o usuário logado somente por 1 hora.
+- RNF-005	A aplicação deve suportar pelo menos dez usuários simultaneamente, e se manter disponível 24/7.
 
-> aspecto visual
-
-![Helper_sessao](https://user-images.githubusercontent.com/76191741/204103513-d60fa863-871c-4001-9ce7-1b024a767f32.JPG)
-
-![Helper_ISessao](https://user-images.githubusercontent.com/76191741/204103518-25f79062-482e-463d-ad98-d17b55639031.JPG)
-
-## Controlador do Administrador
-
-> aspecto visual
-
-![adm_controller1](https://user-images.githubusercontent.com/76191741/204132642-896d7e2e-b476-458d-841a-4ae799c76989.JPG)
-
-![adm_controller2](https://user-images.githubusercontent.com/76191741/204132653-2f7fcaf1-e0d8-485e-a2a0-40a61edf96a1.JPG)
-
-![adm_controller3](https://user-images.githubusercontent.com/76191741/204132659-0e266cdf-0cef-4aab-a826-ae15af1473ba.JPG)
-
-![adm_controller4](https://user-images.githubusercontent.com/76191741/204132667-7a0edce7-5d2e-4fc7-aeb6-55ffb97cd85a.JPG)
-
-## Controlador do Usuário
-
-> aspecto visual
-
-![user_controller1](https://user-images.githubusercontent.com/76191741/204132682-91c07bb7-c081-4e5e-96ee-387f8bdb95fd.JPG)
-
-![user_controller2](https://user-images.githubusercontent.com/76191741/204132684-e8c3f701-417f-4df1-b282-fb72f941fc00.JPG)
-
-![user_controller3](https://user-images.githubusercontent.com/76191741/204132691-da1f07e6-686c-449b-99da-f85ff319501d.JPG)
-
-![user_controller4](https://user-images.githubusercontent.com/76191741/204132693-efd63dfd-5b37-470d-a393-0fed4427d0b3.JPG)
-
-## Controlador do Cadastro
-
-> aspecto visual
-
-![cadastro_controller](https://user-images.githubusercontent.com/76191741/204132704-bc5908d8-53da-4068-a40d-6f7508890f5a.JPG)
-
-## Controlador Restrito
-
-> aspecto visual
-
-![restrito_controller](https://user-images.githubusercontent.com/76191741/204132732-66cfcbff-4ccb-4e95-a307-419b7f78ae18.JPG)
+### Artefatos da funcionalidade 
+<h1> Controllers:</h1>
+<ul>
+ 
+ <li> AdmController.cs </li>
+ <li> ClienteController.cs </li>
+ <li> UsuarioController.cs </li>
+ <li> HomeController.cs </li>
+ <li> LoginController.cs </li>
+ <li> RestritoController.cs </li>
+ <li> OrdensDeServiçosController.cs </li>
+ <li> CadastroController.cs </li>
+  
+</ul>
+  
+  <h1> Sessions( Controla a sessão do usuário e administrador )  </h1>
+ <ul>
+  <li> Sessao </li>
+  <li> |Sessao </li>
+ </ul>
+  <h1> Filters( Controla os filtros para usuário e administrador )  </h1>
+  <li> PaginaParaAdmnistradorLogado.cs </li>
+  <li> PaginaParaUsuarioLogado.cs </li>
+  
 
 
-# Instruções de acesso
+## Requisitos atendidos
+|ID    | Descrição do Requisito                                                                                                                        |Prioridade|
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------|
+|RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha" e escolher qual tipo de usúario.               |Alta      |
+|RF-002| A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS onde haverão campos para informar o escopo de requisição tais como: Descrição, tipo, data , horário e realização da OS.                               |Alta      |
+|RF-003| A aplicação deverá exibir uma tela para o Administrador onde ele poderá alterar, editar , excluir e criar ordens de serviços | Média     |
+|RF-004| A aplicação deverá exibir uma uma barra de pesquisa na tela de gerenciamento de ordens de serviços para pesquisar as OS's | Média     |
+|RF-005| A aplicação deverá exibir uma tela para o administrador criar, deletar, detalhar, e alterar os usuários. | Média     |
 
-Para ter acesso a aplicação interativa, <a href="https://gestordeos.azurewebsites.net/">clique aqui</a>.
+## SQL SERVER
+<img src ="/docs/img/TABELASSQL.png">
 
-Para fazer o login no sistema, utilize os dados abaixo:
-
-Email: eduardoramossilva@live.com
-<br>
-Senha: *
 
