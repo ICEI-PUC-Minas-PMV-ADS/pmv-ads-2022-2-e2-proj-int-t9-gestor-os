@@ -10,7 +10,7 @@ Abra um navegador de Internet e informe a seguinte URL: https://gestoros.azurewe
 A tela de CADASTRO do sistema contém campos para inserir o email, nome, senha e tipo de Usuário, assim que feito o cadastro essas informações são enviadas ao SGBD SQL Server, cadastradas e liberando o usuário para poder fazer o login no sistema.
 
 <img src ="/docs/img/Cadastrar.png">
-### Artefatos da funcionalidade 
+## Artefatos da funcionalidade 
 
  <li> UsuarioController.cs </li>
  <li> Create.htmlcs </li>
