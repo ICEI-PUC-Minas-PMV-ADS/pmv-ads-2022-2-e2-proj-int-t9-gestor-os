@@ -87,7 +87,7 @@ Casos de testes:
 |    7    |  Visualizar a página de registro       |
 |    8    |  Escolher a solicitação desejada       |
 |    9    |  Clicar na opção deletar               |          
-|    10   |  Confirmar se é essa solicitação e clicar em “Delete” |
+|    10   |  Confirmar se é essa solicitação e clicar em “Deletar” |
 |Critério de Êxito | Deve ser exibido na página especifica do gerenciamento de OS, a opção de deletar, escolher a OS e clicar em “Delete”.|
 
 
