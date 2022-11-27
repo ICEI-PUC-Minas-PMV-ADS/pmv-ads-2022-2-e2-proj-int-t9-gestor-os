@@ -68,4 +68,4 @@ Se for selecionado criar um novo usuário com perfil de administrador, esse depe
 <img src="img/trilhanovousuario.png">
 <img src="img/cadastro.jpeg">
 
-Conforme dito no inicio desta seção, para melhor compreensão e visualização, oferecemos uma versão interativa, <a href="https://app.uizard.io/p/c54734e5">basta clicar aqui!</a>
+Conforme dito no inicio desta seção, para melhor compreensão e visualização, oferecemos uma versão interativa, <a href="https://app.uizard.io/prototypes/5E0qxLaRqAIPjGmQ4gyJ/player">basta clicar aqui!</a>
