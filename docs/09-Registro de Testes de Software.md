@@ -100,7 +100,7 @@
 -	Visualizar a página de registro
 -	Escolher a solicitação desejada
 -	Clicar na opção deletar
--	Confirmar se é essa solicitação e clicar em “Delete”
+-	Confirmar se é essa solicitação e clicar em “Deletar”
 
 > Como teste padrão foi realizada a entrada na tela de alterar OS. Resultando na notificação vista na imagem abaixo: **OS deletada!**
 
