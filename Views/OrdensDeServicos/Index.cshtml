@@ -1,9 +1,10 @@
 ﻿@model IEnumerable<GestorOS.Models.OrdensDeServicos>
 
+
 @{
     ViewData["Title"] = "Index";
 }
-
+<a class="navbar-brand" asp-controller="Login" asp-action="Sair">Sair</a>
 <h1 style="text-align:center;
          font-size:medium; color:grey; 
          text-shadow: 1px 1px 2px white;
@@ -15,11 +16,16 @@
               font-weight:bolder; 
               color:blanchedalmond ;
               text-shadow: 1px 1px 2px black;"
-    ;" asp-action="Create">Criar OS</a>
+    ;" href="/Cliente/Create">Criar OS</a>
+    <a href="/Adm" style="margin-left: 10%; font-size:medium;
+              font-weight:bolder;
+              color:blanchedalmond ;
+              text-shadow: 1px 1px 2px black;"
+       ;" >Gerenciar Usuários</a>
 </p>
 
 <div class="shadow-lg p-3 mb-5 bg-body rounded">
-    <table style="font-family:sans-serif;font-weight:bolder; color: white; text-shadow:  1px 1px 2px black;" class="table table-bordered border-primary">
+    <table id="table-os" style="font-family:sans-serif;font-weight:bolder; color: white; text-shadow:  1px 1px 2px black;" class="table table-bordered border-primary">
     <thead>
         <tr>
             <th>

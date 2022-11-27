@@ -3,7 +3,12 @@
 @{
     ViewData["Title"] = "Delete";
 }
-
+<script>
+    function mensagem(){
+        alert("OS Deletada!");
+    }
+</script>
+<a class="navbar-brand" asp-controller="Login" asp-action="Sair">Sair</a>
 <h1 style="font-size:larger; font-weight:bolder; color:blanchedalmond ; text-shadow: 1px 1px 2px black;">Deletar</h1>
 
 <h3 style="text-align:center; font-size:large; font-weight:bolder; color:red ; text-shadow: 1px 1px 2px white;">Tem certeza que deseja fazer isso?</h3>
@@ -39,7 +44,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <input onclick="mensagem()" type="submit" value="Deletar" class="btn btn-danger" /> |
         <a asp-action="Index">Voltar para a lista de OS</a>
     </form>
 </div>

@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GestorOS.Models;
+using GestorOS.Filters;
 
 namespace GestorOS.Controllers
 {
+    [PaginaParaAdministradorLogado]
     public class OrdensDeServicosController : Controller
     {
         private readonly BancodeDados _context;
@@ -19,12 +21,14 @@ namespace GestorOS.Controllers
         }
 
         // GET: OrdensDeServicos
+        
         public async Task<IActionResult> Index()
         {
             return View(await _context.OrdensDeServicos.ToListAsync());
         }
 
         // GET: OrdensDeServicos/Details/5
+       
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -43,30 +47,34 @@ namespace GestorOS.Controllers
         }
 
         // GET: OrdensDeServicos/Create
+    
         public IActionResult Create()
         {
             return View();
         }
 
         // POST: OrdensDeServicos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
+     
         public async Task<IActionResult> Create([Bind("Id,Descricao,Tipo,Data,Feito")] OrdensDeServicos ordensDeServicos)
         {
             if (ModelState.IsValid)
             {
+              
                 _context.Add(ordensDeServicos);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Create", "OrdensDeServicos");
             }
             return View(ordensDeServicos);
         }
 
         // GET: OrdensDeServicos/Edit/5
+      
         public async Task<IActionResult> Edit(int? id)
         {
+         
             if (id == null)
             {
                 return NotFound();
@@ -85,6 +93,7 @@ namespace GestorOS.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+      
         public async Task<IActionResult> Edit(int id, [Bind("Id,Descricao,Tipo,Data,Feito")] OrdensDeServicos ordensDeServicos)
         {
             if (id != ordensDeServicos.Id)
@@ -116,6 +125,7 @@ namespace GestorOS.Controllers
         }
 
         // GET: OrdensDeServicos/Delete/5
+     
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -136,6 +146,7 @@ namespace GestorOS.Controllers
         // POST: OrdensDeServicos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+      
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var ordensDeServicos = await _context.OrdensDeServicos.FindAsync(id);
@@ -143,7 +154,7 @@ namespace GestorOS.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
+  
         private bool OrdensDeServicosExists(int id)
         {
             return _context.OrdensDeServicos.Any(e => e.Id == id);

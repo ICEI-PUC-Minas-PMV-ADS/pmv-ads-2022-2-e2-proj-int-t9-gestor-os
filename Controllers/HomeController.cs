@@ -1,4 +1,5 @@
-﻿using GestorOS.Models;
+﻿using GestorOS.Filters;
+using GestorOS.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,9 +10,20 @@ using System.Threading.Tasks;
 
 namespace GestorOS.Controllers
 {
+    
     public class HomeController : Controller
     {
+        public IActionResult Home()
+        {
+
+            return View();
+        }
         public IActionResult Index()
+        {
+
+            return View();
+        }
+        public IActionResult Entrou()
         {
 
             return View();

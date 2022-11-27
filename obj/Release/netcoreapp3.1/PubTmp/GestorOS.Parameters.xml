@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="testeindiano" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\GestorOS\\pmv-ads-2022-2-e2-proj-int-t9-gestor-os\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  <parameter name="IIS Web Application Name" description="" value="GestorOS" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Eduardo\\Desktop\\C\#\\GestorOS\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

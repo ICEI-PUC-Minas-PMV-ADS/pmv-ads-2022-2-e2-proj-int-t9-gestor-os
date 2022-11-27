@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestorOS.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace GestorOS.Models
         public string Login { get; set; }
       //  [Required(ErrorMessage ="Digite a senha")]
         public string Senha { get; set; }
+        public PerfilEnum Perfil { get; set; }
 
     }
 }

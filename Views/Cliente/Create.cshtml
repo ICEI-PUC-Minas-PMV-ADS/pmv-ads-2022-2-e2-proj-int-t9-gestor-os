@@ -1,42 +1,71 @@
-﻿@model GestorOS.Models.Cliente
+﻿@model GestorOS.Models.OrdensDeServicos 
+@using GestorOS.Models
 
 @{
-    ViewData["Title"] = "Página do Administrador";
+    ViewData["Title"] = "Gestor OS";
 }
+<script>
+    function mensagem() {
+        alert("Sua OS foi criada com sucesso!");
 
-<h1>Adicionar Clientes ou Administradores</h1>
+    }
+</script>
+
+<h1 style="font-size:medium; font-weight:bolder; color:blanchedalmond ; text-shadow: 1px 1px 2px black;">Adicionar Ordens de Serviços</h1>
+<a class="navbar-brand" style="font-size: medium;" href="/OrdensDeServicos">Gerenciar OS(somente admin)</a>
 
 <hr />
 <div class="row">
     <div class="col-md-4">
+
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
+                <label asp-for="Tipo" class="control-label"></label>
+                <select asp-for="Tipo">
+                    <option value="0">Selecione </option>
+                    <option value="Manutenção">Manutenção</option>
+                    <option value="Limpeza">Limpeza</option>
+                    <option value="Jardinagem">Jardinagem</option>
+                    <option value="Troca">Troca</option>
+                    <option value="Entrega">Entrega</option>
+                    <option value="Segurança">Segurança</option>
+                    <option value="Organização">Organização</option>
+                </select>
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+                
+        
+            
+              
+            
+            </div>
+            <div class="form-group">
+                <label asp-for="Data" class="control-label"></label>
+                <input asp-for="Data" class="form-control" />
+                <span asp-validation-for="Data" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsAdmin" /> @Html.DisplayNameFor(model => model.IsAdmin)
+                    <input class="form-check-input" asp-for="Feito" /> @Html.DisplayNameFor(model => model.Feito)
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Feito" class="btn btn-primary" />
+                <a class="navbar-brand" asp-controller="Login" asp-action="Sair">Sair</a>
+                <input onclick="mensagem()" type="submit" value="Criar" class="btn btn-primary" />
             </div>
+                
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Voltar para a lista de cliente</a>
-</div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

@@ -1,9 +1,14 @@
 ﻿@model GestorOS.Models.OrdensDeServicos
-
 @{
     ViewData["Title"] = "Gestor OS";
 }
-
+<script>
+    function mensagem(){
+        alert("Sua OS foi criada com sucesso!");
+    
+    }
+</script>
+<a class="navbar-brand" asp-controller="Login" asp-action="Sair">Sair</a>
 <h1 style="font-size:medium; font-weight:bolder; color:blanchedalmond ; text-shadow: 1px 1px 2px black;">Adicionar Ordens de Serviços</h1>
 
 <hr />
@@ -18,8 +23,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Tipo" class="control-label"></label>
-                <input asp-for="Tipo" class="form-control" />
-                <span asp-validation-for="Tipo" class="text-danger"></span>
+                <select>
+                    <option class="form-control" asp-for="Tipo" value="Varredura">Varredura</option>
+                    <option class="form-control" asp-for="Tipo" value="Manutenção">Manutenção</option>
+                    <option class="form-control" asp-for="Tipo" value="Limpeza">Limpeza</option>
+
+                </select>
             </div>
             <div class="form-group">
                 <label asp-for="Data" class="control-label"></label>
@@ -32,15 +41,13 @@
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Criar" class="btn btn-primary" />
+              
+                <input onclick="mensagem()" type="submit" value="Criar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Voltar para a lista de OS</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

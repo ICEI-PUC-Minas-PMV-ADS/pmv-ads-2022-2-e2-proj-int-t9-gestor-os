@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using GestorOS.Enums;
 using Microsoft.Data;
 
 namespace GestorOS.Models
@@ -15,5 +16,7 @@ namespace GestorOS.Models
         public DateTime Data{ get; set; }
 
         public bool Feito { get; set; }
+      
+
     }
 }

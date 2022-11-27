@@ -6,20 +6,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Login\LoginAdm.cshtml" />
     <Content Remove="wwwroot\css\GitHub-Mark-Light-120px-plus.png" />
     <Content Remove="wwwroot\css\images.png" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="0mmddk8sv6j51.png" />
-    <None Remove="Imgs\Edição.png" />
     <None Remove="Views\Login\nome.jpg" />
+    <None Remove="Views\nome.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Enums.NET" Version="4.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.25" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.25" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.25">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.30">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
