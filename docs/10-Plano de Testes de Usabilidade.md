@@ -12,14 +12,14 @@
 > Decidiu-se no plano de usabilidade dar foco a controles-chave (críticos) para a interface do aplicativo. E nos quais haja maior possibilidade tanto de erro de programação quanto de intuitividade no uso para o usuário final, como se segue abaixo:
 
 
-|ID    | Descrição do Requisito  | Atividades|
-|------|---------------------------------------------------------------------------|---------------------------------------------|
-|RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha" e escolher qual tipo de usúario. | Verificar se os campos senha e login estão codificados de maneira a rotear corretamente o usuário para a tela determinada, além de ser claro seu uso: se cliente, criação das OS's, se administrador, para a tela de gestão das OS's |
-|RF-002| A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS onde haverão campos para informar o escopo de requisição tais como: Descrição, tipo, data , horário e realização da OS. | Verificar se o controle de seleção de data esta codificado corretamente e intuitivo |
-|RF-003| A aplicação deverá exibir uma tela para o Admnistrador onde ele poderá alterar, editar , excluir e criar ordens de serviços  |  Verificar se o controle de conclusão da OS esta corretamente codificado
-|RF-004| A aplicação deverá exibir uma tela para pesquisar as OS's | Verificar se a pesquisa vai ser executada corretamente
-|RF-005| A aplicação deverá exibir uma tela para o Admin gerenciar os Usuários.	 | Verificar se o Admin irá conseguir gerenciar os usuários corretamente
-
+|ID    | Descrição do Requisito                                                                                                                        |Prioridade|
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------|
+|RF-001| A aplicação deverá apresentar uma tela onde o usuário poderá fazer login com "Email" e "Senha" e escolher qual tipo de usúario.               |Alta      |
+|RF-002| A aplicação deverá apresentar uma tela onde o cliente poderá fazer a solicitação de OS onde haverão campos para informar o escopo de requisição tais como: Descrição, tipo, data , horário e realização da OS.                               |Alta      |
+|RF-003| A aplicação deverá exibir uma tela para o Administrador onde ele poderá alterar, editar , excluir e criar ordens de serviços | Média     |
+|RF-004| A aplicação deverá exibir uma uma barra de pesquisa na tela de gerenciamento de ordens de serviços para pesquisar as OS's | Média     |
+|RF-005| A aplicação deverá exibir uma tela para o administrador criar, deletar, detalhar, e alterar os usuários. | Média     |
+ 
 
 ## Tipo de coletor de dado
 
