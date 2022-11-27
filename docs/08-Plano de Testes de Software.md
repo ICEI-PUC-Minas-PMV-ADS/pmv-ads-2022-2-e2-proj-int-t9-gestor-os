@@ -90,3 +90,38 @@ Casos de testes:
 |    10   |  Confirmar se é essa solicitação e clicar em “Delete” |
 |Critério de Êxito | Deve ser exibido na página especifica do gerenciamento de OS, a opção de deletar, escolher a OS e clicar em “Delete”.|
 
+
+| **Caso de Teste** 	| CT-06 – Visualizar página de Pesquisar OS	|
+| :---: | :---:|
+|Requisito Associado | RF-04 -A aplicação deverá exibir uma tela para pesquisar as OS's  |
+| Objetivo do Teste 	| Verificar se a aplicação web exibe uma página com dados dos funcionários e alterar a solicitação. |
+| Passos 	|  -              -                 -   |
+|   1     |  Acessar o Navegador                  |
+|   2     |  Informar o endereço da aplicação web | 
+|   4     |  Visualizar a página principal        |
+|   5     |  Selecionar a opção de "Faça o Login" |
+|   6     |  Visualizar a tela de login           |
+|   7     |  Realizar o login Adm                 |
+|   8     |  Visualizar a página de registro      |
+|   9     |  Selecionar o campo em branco após o "Pesquisar" e digitar o que deseja      |
+|Critério de Êxito | Deve ser exibido o resultado da pesquisa.|
+
+<br>*
+
+| **Caso de Teste** 	| CT-07 – Visualizar página de Gerenciar os Usuarios	|
+| :---: | :---:|
+|Requisito Associado | RF-05 -A aplicação deverá exibir uma tela para o Admin gerenciar os Usuários.  |
+| Objetivo do Teste 	| Verificar se o Perfil Adm consegue gerenciar os usuarios. |
+| Passos 	|  -              -                 -   |
+|   1     |  Acessar o Navegador                  |
+|   2     |  Informar o endereço da aplicação web | 
+|   4     |  Visualizar a página principal        |
+|   5     |  Selecionar a opção de "Faça o Login" |
+|   6     |  Visualizar a tela de login           |
+|   7     |  Realizar o login Adm                 |
+|   8     |  Visualizar a página de registro      |
+|   9     |  Selecionar a opção "Gerenciar os usuários"     |
+|Critério de Êxito | Deve ser exibido a lista de registros de gerenciamento de usuários.|
+
+
+
