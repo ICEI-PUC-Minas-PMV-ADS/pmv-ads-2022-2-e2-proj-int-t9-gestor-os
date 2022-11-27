@@ -55,4 +55,4 @@ Ambiente do cliente: basta criar seu cadastro na aba própria.
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t9-gestor-os/tree/main/presentation"> Apresentação da solução</a></li>
