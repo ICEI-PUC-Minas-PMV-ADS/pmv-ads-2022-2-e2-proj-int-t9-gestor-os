@@ -20,7 +20,7 @@ A tela de CADASTRO do sistema contém campos para inserir o email, nome, senha e
 Na tela de criação das ordens de serviços , o usuário irá informar a descrição, tipo, data , hora e se já foi realizado a OS. Depois de feito, a ordem de serviço irá ser enviada ao SGBD SQL SERVER onde o administrador do sistema poderá visualizar e fazer suas edições das ordens de serviços.
 <img src ="/docs/img/Enviarr.png">
 
-### Artefatos da funcionalidade 
+## Artefatos da funcionalidade 
 
  <li> OrdensDeServicosController.cs </li>
  <li> Create.htmlcs </li>
