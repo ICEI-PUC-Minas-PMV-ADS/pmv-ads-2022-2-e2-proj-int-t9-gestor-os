@@ -1,3 +1,3 @@
 # Apresentação da Solução
 
-Este é um projeto de uma aplicação interativa de criação e gerenciamento de ordens de serviço
+O projeto consiste em uma aplicação web interativa onde um usuário cliente do setor de facilities de uma empresa poderá solicitar/gerar ordens de serviço, bem como os os usuários/administradores e/ou funcionários do referido setor poderão analisar, administrar e cumprir com as ordens de serviço.
