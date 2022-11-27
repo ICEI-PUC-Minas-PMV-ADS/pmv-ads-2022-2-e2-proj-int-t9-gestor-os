@@ -51,6 +51,7 @@ Casos de testes:
 |     6    |     Realizar o login                     |
 |     7    |     Visualizar a página de registro      |
 |Critério de Êxito | Deve ser exibido após o login, uma página especifica do registro de dados dos funcionários e solicitações.|
+
 <br>*
 
 | **Caso de Teste** 	| CT-04 – Visualizar página de Alterar solicitação	|
@@ -90,6 +91,7 @@ Casos de testes:
 |    10   |  Confirmar se é essa solicitação e clicar em “Deletar” |
 |Critério de Êxito | Deve ser exibido na página especifica do gerenciamento de OS, a opção de deletar, escolher a OS e clicar em “Delete”.|
 
+<br>*
 
 | **Caso de Teste** 	| CT-06 – Visualizar página de Pesquisar OS	|
 | :---: | :---:|
