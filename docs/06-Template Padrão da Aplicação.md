@@ -6,7 +6,8 @@
 
 > Aspecto Visual
 
-![Tela Principal](https://user-images.githubusercontent.com/108990294/204097536-2d0d01a8-1bca-46ee-b967-1e03a8444c23.png)
+![Tela Principal]
+<img src="img/telacerta.png" />
 
 
 > Artefato de Construção
