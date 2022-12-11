@@ -380,7 +380,7 @@ margin-left:39.5%;"
 </div>
 ````
 
-## Tela de 
+## Tela de gerenciamento de usuários (somente adm)
 
 ##### Como requisito gerador da funcionalidade é requerido uma tela onde o usuário administrador possa gerenciar, acompanhar, excluir, editar, ver detalhes dos usuários cadastrados.
 
